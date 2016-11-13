@@ -1,65 +1,33 @@
-import { DoublyLinkedList } from 'aureooms-js-dll' ;
-import compile from './compile' ;
 import core from './core' ;
+import heapify from './heapify' ;
+import heappop from './heappop' ;
+import heappush from './heappush' ;
+import heappushpop from './heappushpop' ;
+import heapreplace from './heapreplace' ;
+import merge from './merge' ;
+import nlargest from './nlargest' ;
+import nsmallest from './nsmallest' ;
 
-const collections = compile( Set , Map , DoublyLinkedList , core ) ;
-
-export default collections ;
-
-const {
-
-	bisect ,
-	chainmap ,
-	counter ,
-	deque ,
-	dict ,
-	ordereddict ,
-	defaultdict ,
-	heapq ,
-	Mapping ,
-	namedtuple ,
-	set ,
-
-	ArbitrarySizeDeque ,
-	BoundedDeque ,
-	Deque ,
-	EmptyDeque ,
-	SingleElementDeque ,
-	UnboundedDeque ,
-
-	IndexError ,
-	KeyError ,
-	NotImplementedError ,
-	TypeError ,
-	ValueError ,
-
-} = collections ;
+export default {
+	core ,
+	heapify ,
+	heappop ,
+	heappush ,
+	heappushpop ,
+	heapreplace ,
+	merge ,
+	nlargest ,
+	nsmallest ,
+} ;
 
 export {
-
-	bisect ,
-	chainmap ,
-	counter ,
-	deque ,
-	dict ,
-	ordereddict ,
-	defaultdict ,
-	heapq ,
-	Mapping ,
-	namedtuple ,
-	set ,
-
-	ArbitrarySizeDeque ,
-	BoundedDeque ,
-	Deque ,
-	EmptyDeque ,
-	SingleElementDeque ,
-	UnboundedDeque ,
-
-	IndexError ,
-	KeyError ,
-	NotImplementedError ,
-	TypeError ,
-	ValueError ,
-
+	core ,
+	heapify ,
+	heappop ,
+	heappush ,
+	heappushpop ,
+	heapreplace ,
+	merge ,
+	nlargest ,
+	nsmallest ,
 } ;

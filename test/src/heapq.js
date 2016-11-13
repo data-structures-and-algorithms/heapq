@@ -2,8 +2,9 @@ import test from 'ava' ;
 
 import { increasing } from "aureooms-js-compare" ;
 import { list } from "aureooms-js-itertools" ;
+import { IndexError } from 'aureooms-js-collections' ;
 
-import { heapq , IndexError } from '../../src' ;
+import heapq from '../../src' ;
 
 test( "heapq" , t => {
 

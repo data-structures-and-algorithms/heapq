@@ -9,7 +9,7 @@
   "debug": false,
   "index": "./README.md",
   "package": "./package.json",
-  "title": "aureooms/js-collections",
+  "title": "aureooms/js-heapq",
   "test": {
     "type": "ava",
     "source": "./test/src"
