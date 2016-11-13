@@ -29,18 +29,6 @@ let {
 [![GitHub issues](http://img.shields.io/github/issues/aureooms/js-heapq.svg?style=flat)](https://github.com/aureooms/js-heapq/issues)
 [![Documentation](https://aureooms.github.io/js-heapq/badge.svg)](https://aureooms.github.io/js-heapq/source.html)
 
-## Changes w.r.t. Python's API
-
-```js
-let array = [ 2 , 1 , 3 ] ;
-let heap = heapq.heapify( compare.increasing , array ) ;
-array[0] ; // 1
-heapq.heappop( heap ) ; // 1
-heapq.heappop( heap ) ; // 2
-heapq.heappop( heap ) ; // 3
-array.length ; // 0
-```
-
 ## References
 
   - [Python's heapq library](https://docs.python.org/3.6/library/heapq.html).
