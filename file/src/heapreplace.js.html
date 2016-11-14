@@ -2,8 +2,8 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <base data-ice="baseUrl" href="../">
-  <title data-ice="title">Variable | aureooms/js-heapq API Document</title>
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">src/heapreplace.js | aureooms/js-heapq API Document</title>
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
@@ -51,82 +51,30 @@
 </div>
 </nav>
 
-<div class="content" data-ice="content"><h1 data-ice="title">Variable</h1>
-<div data-ice="summaries"><table class="summary" data-ice="summary">
-  <thead><tr><td data-ice="title" colspan="3">Static Public Summary</td></tr></thead>
-  <tbody>
-  
-  <tr data-ice="target">
-    <td>
-      <span class="access" data-ice="access">public</span>
-      
-      
-      
-      <span class="override" data-ice="override"></span>
-    </td>
-    <td>
-      <div>
-        <p>
-           <span data-ice="name"><span><a href="variable/index.html#static-variable-keeporder">keeporder</a></span></span><span data-ice="signature">: <span>*</span></span>
-        </p>
-      </div>
-      <div>
-        
-        
-        
-      </div>
-    </td>
-    <td>
-      
-      
-    </td>
-  </tr>
-</tbody>
-</table>
-</div>
-<div data-ice="details"><h2 data-ice="title">Static Public </h2>
+<div class="content" data-ice="content"><h1 data-ice="title">src/heapreplace.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import { IndexError } from &apos;aureooms-js-collections&apos; ;
+import { siftdown } from &apos;./core&apos; ;
 
-<div class="detail" data-ice="detail">
-  <h3 data-ice="anchor" id="static-variable-keeporder">
-    <span class="access" data-ice="access">public</span>
-    
-    
-    
-    
-    <span data-ice="name">keeporder</span><span data-ice="signature">: <span>*</span></span>
-    <span class="right-info">
-      
-      
-      <span data-ice="source"><span><a href="file/src/core/keeporder.js.html#lineNumber3">source</a></span></span>
-    </span>
-  </h3>
+export default function heapreplace ( heap , item ) {
 
-  <div data-ice="importPath" class="import-path"><pre class="prettyprint"><code data-ice="importPathCode">import keeporder from &apos;<span><a href="file/src/core/keeporder.js.html#lineNumber3">aureooms-js-heapq/src/core/keeporder.js</a></span>&apos;</code></pre></div>
-  
-  
-  
+	const x = heap.data ;
+	const n = x.length ;
 
-  
+	if ( n === 0 ) throw new IndexError( &quot;heapreplace&quot; ) ;
 
-  <div data-ice="properties">
-</div>
+	const oldroot = x[0] ;
 
-  
+	x[0] = item ;
 
-  
+	// sift down the new root
 
-  
+	siftdown( heap.compare , x , 0 , n , 0 ) ;
 
-  
+	return oldroot ;
 
-  
+}
+</code></pre>
 
-  
-
-  
-  
-</div>
-</div>
 </div>
 
 <footer class="footer">

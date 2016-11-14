@@ -1,272 +1,80 @@
 window.esdocSearchIndex = [
   [
-    "aureooms-js-collections/src/deque/implementation/arbitrarysizedeque.js~arbitrarysizedeque",
-    "function/index.html#static-function-ArbitrarySizeDeque",
-    "<span>ArbitrarySizeDeque</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/deque/implementation/ArbitrarySizeDeque.js</span>",
-    "function"
-  ],
-  [
-    "aureooms-js-collections/src/deque/implementation/boundeddeque.js~boundeddeque",
-    "function/index.html#static-function-BoundedDeque",
-    "<span>BoundedDeque</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/deque/implementation/BoundedDeque.js</span>",
-    "function"
-  ],
-  [
-    "aureooms-js-collections/src/deque/implementation/deque.js~deque",
-    "function/index.html#static-function-Deque",
-    "<span>Deque</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/deque/implementation/Deque.js</span>",
-    "function"
-  ],
-  [
-    "aureooms-js-collections/src/deque/implementation/emptydeque.js~emptydeque",
-    "function/index.html#static-function-EmptyDeque",
-    "<span>EmptyDeque</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/deque/implementation/EmptyDeque.js</span>",
-    "function"
-  ],
-  [
-    "aureooms-js-collections/src/heapq/core/heap.js~heap",
+    "aureooms-js-heapq/src/core/heap.js~heap",
     "function/index.html#static-function-Heap",
-    "<span>Heap</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/heapq/core/Heap.js</span>",
+    "<span>Heap</span> <span class=\"search-result-import-path\">aureooms-js-heapq/src/core/Heap.js</span>",
     "function"
   ],
   [
-    "aureooms-js-collections/src/error/indexerror.js~indexerror",
-    "function/index.html#static-function-IndexError",
-    "<span>IndexError</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/error/IndexError.js</span>",
-    "function"
-  ],
-  [
-    "aureooms-js-collections/src/error/keyerror.js~keyerror",
-    "function/index.html#static-function-KeyError",
-    "<span>KeyError</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/error/KeyError.js</span>",
-    "function"
-  ],
-  [
-    "aureooms-js-collections/src/error/notimplementederror.js~notimplementederror",
-    "function/index.html#static-function-NotImplementedError",
-    "<span>NotImplementedError</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/error/NotImplementedError.js</span>",
-    "function"
-  ],
-  [
-    "aureooms-js-collections/src/deque/implementation/singleelementdeque.js~singleelementdeque",
-    "function/index.html#static-function-SingleElementDeque",
-    "<span>SingleElementDeque</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/deque/implementation/SingleElementDeque.js</span>",
-    "function"
-  ],
-  [
-    "aureooms-js-collections/src/deque/implementation/unboundeddeque.js~unboundeddeque",
-    "function/index.html#static-function-UnboundedDeque",
-    "<span>UnboundedDeque</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/deque/implementation/UnboundedDeque.js</span>",
-    "function"
-  ],
-  [
-    "aureooms-js-collections/src/error/valueerror.js~valueerror",
-    "function/index.html#static-function-ValueError",
-    "<span>ValueError</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/error/ValueError.js</span>",
-    "function"
-  ],
-  [
-    "aureooms-js-collections/src/chainmap/_chainmap.js~_chainmap",
-    "function/index.html#static-function-_ChainMap",
-    "<span>_ChainMap</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/chainmap/_ChainMap.js</span>",
-    "function"
-  ],
-  [
-    "aureooms-js-collections/src/counter/_counter.js~_counter",
-    "function/index.html#static-function-_Counter",
-    "<span>_Counter</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/counter/_Counter.js</span>",
-    "function"
-  ],
-  [
-    "aureooms-js-collections/src/dict/defaultdict/_defaultdict.js~_defaultdict",
-    "function/index.html#static-function-_DefaultDict",
-    "<span>_DefaultDict</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/dict/defaultdict/_DefaultDict.js</span>",
-    "function"
-  ],
-  [
-    "aureooms-js-collections/src/dict/dict/_dict.js~_dict",
-    "function/index.html#static-function-_Dict",
-    "<span>_Dict</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/dict/dict/_Dict.js</span>",
-    "function"
-  ],
-  [
-    "aureooms-js-collections/src/namedtuple/_namedtuple.js~_namedtuple",
-    "function/index.html#static-function-_NamedTuple",
-    "<span>_NamedTuple</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/namedtuple/_NamedTuple.js</span>",
-    "function"
-  ],
-  [
-    "aureooms-js-collections/src/dict/ordereddict/_ordereddict.js~_ordereddict",
-    "function/index.html#static-function-_OrderedDict",
-    "<span>_OrderedDict</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/dict/ordereddict/_OrderedDict.js</span>",
-    "function"
-  ],
-  [
-    "aureooms-js-collections/src/set/_set.js~_set",
-    "function/index.html#static-function-_Set",
-    "<span>_Set</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/set/_Set.js</span>",
-    "function"
-  ],
-  [
-    "aureooms-js-collections/src/chainmap/_chainmap.js~_chainmap",
-    "function/index.html#static-function-_chainmap",
-    "<span>_chainmap</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/chainmap/_chainmap.js</span>",
-    "function"
-  ],
-  [
-    "aureooms-js-collections/src/counter/_counter.js~_counter",
-    "function/index.html#static-function-_counter",
-    "<span>_counter</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/counter/_counter.js</span>",
-    "function"
-  ],
-  [
-    "aureooms-js-collections/src/dict/defaultdict/_defaultdict.js~_defaultdict",
-    "function/index.html#static-function-_defaultdict",
-    "<span>_defaultdict</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/dict/defaultdict/_defaultdict.js</span>",
-    "function"
-  ],
-  [
-    "aureooms-js-collections/src/deque/_deque.js~_deque",
-    "function/index.html#static-function-_deque",
-    "<span>_deque</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/deque/_deque.js</span>",
-    "function"
-  ],
-  [
-    "aureooms-js-collections/src/dict/dict/_dict.js~_dict",
-    "function/index.html#static-function-_dict",
-    "<span>_dict</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/dict/dict/_dict.js</span>",
-    "function"
-  ],
-  [
-    "aureooms-js-collections/src/namedtuple/_namedtuple.js~_namedtuple",
-    "function/index.html#static-function-_namedtuple",
-    "<span>_namedtuple</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/namedtuple/_namedtuple.js</span>",
-    "function"
-  ],
-  [
-    "aureooms-js-collections/src/dict/ordereddict/_ordereddict.js~_ordereddict",
-    "function/index.html#static-function-_ordereddict",
-    "<span>_ordereddict</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/dict/ordereddict/_ordereddict.js</span>",
-    "function"
-  ],
-  [
-    "aureooms-js-collections/src/set/_set.js~_set",
-    "function/index.html#static-function-_set",
-    "<span>_set</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/set/_set.js</span>",
-    "function"
-  ],
-  [
-    "aureooms-js-collections/src/bisect/bisect_left.js~bisect_left",
-    "function/index.html#static-function-bisect_left",
-    "<span>bisect_left</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/bisect/bisect_left.js</span>",
-    "function"
-  ],
-  [
-    "aureooms-js-collections/src/bisect/bisect_right.js~bisect_right",
-    "function/index.html#static-function-bisect_right",
-    "<span>bisect_right</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/bisect/bisect_right.js</span>",
-    "function"
-  ],
-  [
-    "aureooms-js-collections/src/compile.js~compile",
-    "function/index.html#static-function-compile",
-    "<span>compile</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/compile.js</span>",
-    "function"
-  ],
-  [
-    "aureooms-js-collections/src/counter/counts.js~counts",
-    "variable/index.html#static-variable-counts",
-    "<span>counts</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/counter/counts.js</span>",
-    "variable"
-  ],
-  [
-    "aureooms-js-collections/src/mapping/fromkeys.js~fromkeys",
-    "function/index.html#static-function-fromkeys",
-    "<span>fromkeys</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/mapping/fromkeys.js</span>",
-    "function"
-  ],
-  [
-    "aureooms-js-collections/src/heapq/heapify.js~heapify",
+    "aureooms-js-heapq/src/heapify.js~heapify",
     "function/index.html#static-function-heapify",
-    "<span>heapify</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/heapq/heapify.js</span>",
+    "<span>heapify</span> <span class=\"search-result-import-path\">aureooms-js-heapq/src/heapify.js</span>",
     "function"
   ],
   [
-    "aureooms-js-collections/src/heapq/heappop.js~heappop",
+    "aureooms-js-heapq/src/heappop.js~heappop",
     "function/index.html#static-function-heappop",
-    "<span>heappop</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/heapq/heappop.js</span>",
+    "<span>heappop</span> <span class=\"search-result-import-path\">aureooms-js-heapq/src/heappop.js</span>",
     "function"
   ],
   [
-    "aureooms-js-collections/src/heapq/heappush.js~heappush",
+    "aureooms-js-heapq/src/heappush.js~heappush",
     "function/index.html#static-function-heappush",
-    "<span>heappush</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/heapq/heappush.js</span>",
+    "<span>heappush</span> <span class=\"search-result-import-path\">aureooms-js-heapq/src/heappush.js</span>",
     "function"
   ],
   [
-    "aureooms-js-collections/src/heapq/heappushpop.js~heappushpop",
+    "aureooms-js-heapq/src/heappushpop.js~heappushpop",
     "function/index.html#static-function-heappushpop",
-    "<span>heappushpop</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/heapq/heappushpop.js</span>",
+    "<span>heappushpop</span> <span class=\"search-result-import-path\">aureooms-js-heapq/src/heappushpop.js</span>",
     "function"
   ],
   [
-    "aureooms-js-collections/src/heapq/heapreplace.js~heapreplace",
+    "aureooms-js-heapq/src/heapreplace.js~heapreplace",
     "function/index.html#static-function-heapreplace",
-    "<span>heapreplace</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/heapq/heapreplace.js</span>",
+    "<span>heapreplace</span> <span class=\"search-result-import-path\">aureooms-js-heapq/src/heapreplace.js</span>",
     "function"
   ],
   [
-    "aureooms-js-collections/src/bisect/insort_left.js~insort_left",
-    "function/index.html#static-function-insort_left",
-    "<span>insort_left</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/bisect/insort_left.js</span>",
-    "function"
-  ],
-  [
-    "aureooms-js-collections/src/bisect/insort_right.js~insort_right",
-    "function/index.html#static-function-insort_right",
-    "<span>insort_right</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/bisect/insort_right.js</span>",
-    "function"
-  ],
-  [
-    "aureooms-js-collections/src/heapq/core/keeporder.js~keeporder",
+    "aureooms-js-heapq/src/core/keeporder.js~keeporder",
     "variable/index.html#static-variable-keeporder",
-    "<span>keeporder</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/heapq/core/keeporder.js</span>",
+    "<span>keeporder</span> <span class=\"search-result-import-path\">aureooms-js-heapq/src/core/keeporder.js</span>",
     "variable"
   ],
   [
-    "aureooms-js-collections/src/heapq/merge.js~merge",
+    "aureooms-js-heapq/src/merge.js~merge",
     "function/index.html#static-function-merge",
-    "<span>merge</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/heapq/merge.js</span>",
+    "<span>merge</span> <span class=\"search-result-import-path\">aureooms-js-heapq/src/merge.js</span>",
     "function"
   ],
   [
-    "aureooms-js-collections/src/heapq/core/nextchild.js~nextchild",
+    "aureooms-js-heapq/src/core/nextchild.js~nextchild",
     "function/index.html#static-function-nextchild",
-    "<span>nextchild</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/heapq/core/nextchild.js</span>",
+    "<span>nextchild</span> <span class=\"search-result-import-path\">aureooms-js-heapq/src/core/nextchild.js</span>",
     "function"
   ],
   [
-    "aureooms-js-collections/src/heapq/nlargest.js~nlargest",
+    "aureooms-js-heapq/src/nlargest.js~nlargest",
     "function/index.html#static-function-nlargest",
-    "<span>nlargest</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/heapq/nlargest.js</span>",
+    "<span>nlargest</span> <span class=\"search-result-import-path\">aureooms-js-heapq/src/nlargest.js</span>",
     "function"
   ],
   [
-    "aureooms-js-collections/src/heapq/nsmallest.js~nsmallest",
+    "aureooms-js-heapq/src/nsmallest.js~nsmallest",
     "function/index.html#static-function-nsmallest",
-    "<span>nsmallest</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/heapq/nsmallest.js</span>",
+    "<span>nsmallest</span> <span class=\"search-result-import-path\">aureooms-js-heapq/src/nsmallest.js</span>",
     "function"
   ],
   [
-    "aureooms-js-collections/src/heapq/core/siftdown.js~siftdown",
+    "aureooms-js-heapq/src/core/siftdown.js~siftdown",
     "function/index.html#static-function-siftdown",
-    "<span>siftdown</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/heapq/core/siftdown.js</span>",
+    "<span>siftdown</span> <span class=\"search-result-import-path\">aureooms-js-heapq/src/core/siftdown.js</span>",
     "function"
   ],
   [
-    "aureooms-js-collections/src/heapq/core/siftup.js~siftup",
+    "aureooms-js-heapq/src/core/siftup.js~siftup",
     "function/index.html#static-function-siftup",
-    "<span>siftup</span> <span class=\"search-result-import-path\">aureooms-js-collections/src/heapq/core/siftup.js</span>",
+    "<span>siftup</span> <span class=\"search-result-import-path\">aureooms-js-heapq/src/core/siftup.js</span>",
     "function"
   ],
   [
@@ -600,285 +408,81 @@ window.esdocSearchIndex = [
     "external"
   ],
   [
-    "src/bisect/bisect_left.js",
-    "file/src/bisect/bisect_left.js.html",
-    "src/bisect/bisect_left.js",
+    "src/core/heap.js",
+    "file/src/core/Heap.js.html",
+    "src/core/Heap.js",
     "file"
   ],
   [
-    "src/bisect/bisect_right.js",
-    "file/src/bisect/bisect_right.js.html",
-    "src/bisect/bisect_right.js",
+    "src/core/keeporder.js",
+    "file/src/core/keeporder.js.html",
+    "src/core/keeporder.js",
     "file"
   ],
   [
-    "src/bisect/index.js",
-    "file/src/bisect/index.js.html",
-    "src/bisect/index.js",
+    "src/core/nextchild.js",
+    "file/src/core/nextchild.js.html",
+    "src/core/nextchild.js",
     "file"
   ],
   [
-    "src/bisect/insort_left.js",
-    "file/src/bisect/insort_left.js.html",
-    "src/bisect/insort_left.js",
+    "src/core/siftdown.js",
+    "file/src/core/siftdown.js.html",
+    "src/core/siftdown.js",
     "file"
   ],
   [
-    "src/bisect/insort_right.js",
-    "file/src/bisect/insort_right.js.html",
-    "src/bisect/insort_right.js",
+    "src/core/siftup.js",
+    "file/src/core/siftup.js.html",
+    "src/core/siftup.js",
     "file"
   ],
   [
-    "src/chainmap/_chainmap.js",
-    "file/src/chainmap/_ChainMap.js.html",
-    "src/chainmap/_ChainMap.js",
+    "src/heapify.js",
+    "file/src/heapify.js.html",
+    "src/heapify.js",
     "file"
   ],
   [
-    "src/chainmap/_chainmap.js",
-    "file/src/chainmap/_chainmap.js.html",
-    "src/chainmap/_chainmap.js",
+    "src/heappop.js",
+    "file/src/heappop.js.html",
+    "src/heappop.js",
     "file"
   ],
   [
-    "src/compile.js",
-    "file/src/compile.js.html",
-    "src/compile.js",
+    "src/heappush.js",
+    "file/src/heappush.js.html",
+    "src/heappush.js",
     "file"
   ],
   [
-    "src/counter/_counter.js",
-    "file/src/counter/_Counter.js.html",
-    "src/counter/_Counter.js",
+    "src/heappushpop.js",
+    "file/src/heappushpop.js.html",
+    "src/heappushpop.js",
     "file"
   ],
   [
-    "src/counter/_counter.js",
-    "file/src/counter/_counter.js.html",
-    "src/counter/_counter.js",
+    "src/heapreplace.js",
+    "file/src/heapreplace.js.html",
+    "src/heapreplace.js",
     "file"
   ],
   [
-    "src/counter/counts.js",
-    "file/src/counter/counts.js.html",
-    "src/counter/counts.js",
+    "src/merge.js",
+    "file/src/merge.js.html",
+    "src/merge.js",
     "file"
   ],
   [
-    "src/deque/_deque.js",
-    "file/src/deque/_deque.js.html",
-    "src/deque/_deque.js",
+    "src/nlargest.js",
+    "file/src/nlargest.js.html",
+    "src/nlargest.js",
     "file"
   ],
   [
-    "src/deque/implementation/arbitrarysizedeque.js",
-    "file/src/deque/implementation/ArbitrarySizeDeque.js.html",
-    "src/deque/implementation/ArbitrarySizeDeque.js",
-    "file"
-  ],
-  [
-    "src/deque/implementation/boundeddeque.js",
-    "file/src/deque/implementation/BoundedDeque.js.html",
-    "src/deque/implementation/BoundedDeque.js",
-    "file"
-  ],
-  [
-    "src/deque/implementation/deque.js",
-    "file/src/deque/implementation/Deque.js.html",
-    "src/deque/implementation/Deque.js",
-    "file"
-  ],
-  [
-    "src/deque/implementation/emptydeque.js",
-    "file/src/deque/implementation/EmptyDeque.js.html",
-    "src/deque/implementation/EmptyDeque.js",
-    "file"
-  ],
-  [
-    "src/deque/implementation/singleelementdeque.js",
-    "file/src/deque/implementation/SingleElementDeque.js.html",
-    "src/deque/implementation/SingleElementDeque.js",
-    "file"
-  ],
-  [
-    "src/deque/implementation/unboundeddeque.js",
-    "file/src/deque/implementation/UnboundedDeque.js.html",
-    "src/deque/implementation/UnboundedDeque.js",
-    "file"
-  ],
-  [
-    "src/dict/defaultdict/_defaultdict.js",
-    "file/src/dict/defaultdict/_DefaultDict.js.html",
-    "src/dict/defaultdict/_DefaultDict.js",
-    "file"
-  ],
-  [
-    "src/dict/defaultdict/_defaultdict.js",
-    "file/src/dict/defaultdict/_defaultdict.js.html",
-    "src/dict/defaultdict/_defaultdict.js",
-    "file"
-  ],
-  [
-    "src/dict/dict/_dict.js",
-    "file/src/dict/dict/_Dict.js.html",
-    "src/dict/dict/_Dict.js",
-    "file"
-  ],
-  [
-    "src/dict/dict/_dict.js",
-    "file/src/dict/dict/_dict.js.html",
-    "src/dict/dict/_dict.js",
-    "file"
-  ],
-  [
-    "src/dict/ordereddict/_ordereddict.js",
-    "file/src/dict/ordereddict/_OrderedDict.js.html",
-    "src/dict/ordereddict/_OrderedDict.js",
-    "file"
-  ],
-  [
-    "src/dict/ordereddict/_ordereddict.js",
-    "file/src/dict/ordereddict/_ordereddict.js.html",
-    "src/dict/ordereddict/_ordereddict.js",
-    "file"
-  ],
-  [
-    "src/error/indexerror.js",
-    "file/src/error/IndexError.js.html",
-    "src/error/IndexError.js",
-    "file"
-  ],
-  [
-    "src/error/keyerror.js",
-    "file/src/error/KeyError.js.html",
-    "src/error/KeyError.js",
-    "file"
-  ],
-  [
-    "src/error/notimplementederror.js",
-    "file/src/error/NotImplementedError.js.html",
-    "src/error/NotImplementedError.js",
-    "file"
-  ],
-  [
-    "src/error/typeerror.js",
-    "file/src/error/TypeError.js.html",
-    "src/error/TypeError.js",
-    "file"
-  ],
-  [
-    "src/error/valueerror.js",
-    "file/src/error/ValueError.js.html",
-    "src/error/ValueError.js",
-    "file"
-  ],
-  [
-    "src/heapq/core/heap.js",
-    "file/src/heapq/core/Heap.js.html",
-    "src/heapq/core/Heap.js",
-    "file"
-  ],
-  [
-    "src/heapq/core/keeporder.js",
-    "file/src/heapq/core/keeporder.js.html",
-    "src/heapq/core/keeporder.js",
-    "file"
-  ],
-  [
-    "src/heapq/core/nextchild.js",
-    "file/src/heapq/core/nextchild.js.html",
-    "src/heapq/core/nextchild.js",
-    "file"
-  ],
-  [
-    "src/heapq/core/siftdown.js",
-    "file/src/heapq/core/siftdown.js.html",
-    "src/heapq/core/siftdown.js",
-    "file"
-  ],
-  [
-    "src/heapq/core/siftup.js",
-    "file/src/heapq/core/siftup.js.html",
-    "src/heapq/core/siftup.js",
-    "file"
-  ],
-  [
-    "src/heapq/heapify.js",
-    "file/src/heapq/heapify.js.html",
-    "src/heapq/heapify.js",
-    "file"
-  ],
-  [
-    "src/heapq/heappop.js",
-    "file/src/heapq/heappop.js.html",
-    "src/heapq/heappop.js",
-    "file"
-  ],
-  [
-    "src/heapq/heappush.js",
-    "file/src/heapq/heappush.js.html",
-    "src/heapq/heappush.js",
-    "file"
-  ],
-  [
-    "src/heapq/heappushpop.js",
-    "file/src/heapq/heappushpop.js.html",
-    "src/heapq/heappushpop.js",
-    "file"
-  ],
-  [
-    "src/heapq/heapreplace.js",
-    "file/src/heapq/heapreplace.js.html",
-    "src/heapq/heapreplace.js",
-    "file"
-  ],
-  [
-    "src/heapq/merge.js",
-    "file/src/heapq/merge.js.html",
-    "src/heapq/merge.js",
-    "file"
-  ],
-  [
-    "src/heapq/nlargest.js",
-    "file/src/heapq/nlargest.js.html",
-    "src/heapq/nlargest.js",
-    "file"
-  ],
-  [
-    "src/heapq/nsmallest.js",
-    "file/src/heapq/nsmallest.js.html",
-    "src/heapq/nsmallest.js",
-    "file"
-  ],
-  [
-    "src/mapping/fromkeys.js",
-    "file/src/mapping/fromkeys.js.html",
-    "src/mapping/fromkeys.js",
-    "file"
-  ],
-  [
-    "src/namedtuple/_namedtuple.js",
-    "file/src/namedtuple/_NamedTuple.js.html",
-    "src/namedtuple/_NamedTuple.js",
-    "file"
-  ],
-  [
-    "src/namedtuple/_namedtuple.js",
-    "file/src/namedtuple/_namedtuple.js.html",
-    "src/namedtuple/_namedtuple.js",
-    "file"
-  ],
-  [
-    "src/set/_set.js",
-    "file/src/set/_Set.js.html",
-    "src/set/_Set.js",
-    "file"
-  ],
-  [
-    "src/set/_set.js",
-    "file/src/set/_set.js.html",
-    "src/set/_set.js",
+    "src/nsmallest.js",
+    "file/src/nsmallest.js.html",
+    "src/nsmallest.js",
     "file"
   ]
 ]
