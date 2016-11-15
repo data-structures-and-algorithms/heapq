@@ -1,7 +1,7 @@
 {
   "name": "aureooms-js-heapq",
   "description": "Python's heap and priority queue library for JavaScript",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "author": "Aurélien Ooms <aurelien.ooms@gmail.com>",
   "ava": {
     "require": [
