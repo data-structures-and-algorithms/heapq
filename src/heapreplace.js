@@ -1,4 +1,4 @@
-import { IndexError } from 'aureooms-js-collections' ;
+import { IndexError } from 'aureooms-js-error' ;
 import { siftdown } from './core' ;
 
 export default function heapreplace ( heap , item ) {

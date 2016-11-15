@@ -23,9 +23,9 @@
     "url": "https://github.com/aureooms/js-heapq/issues"
   },
   "dependencies": {
-    "aureooms-js-collections": "^2.0.0",
     "aureooms-js-compare": "^1.4.5",
-    "aureooms-js-itertools": "^3.1.0"
+    "aureooms-js-error": "^3.0.0",
+    "aureooms-js-itertools": "^3.1.1"
   },
   "devDependencies": {
     "ava": "^0.16.0",
@@ -35,7 +35,7 @@
     "codeclimate-test-reporter": "^0.4.0",
     "coveralls": "^2.11.15",
     "esdoc": "^0.4.8",
-    "nyc": "^8.4.0"
+    "nyc": "^9.0.1"
   },
   "homepage": "https://aureooms.github.io/js-heapq",
   "keywords": [
