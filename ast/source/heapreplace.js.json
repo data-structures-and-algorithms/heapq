@@ -60,11 +60,11 @@
       ],
       "source": {
         "type": "Literal",
-        "value": "aureooms-js-collections",
-        "raw": "'aureooms-js-collections'",
+        "value": "aureooms-js-error",
+        "raw": "'aureooms-js-error'",
         "range": [
           27,
-          52
+          46
         ],
         "loc": {
           "start": {
@@ -73,13 +73,13 @@
           },
           "end": {
             "line": 1,
-            "column": 52
+            "column": 46
           }
         }
       },
       "range": [
         0,
-        54
+        48
       ],
       "loc": {
         "start": {
@@ -88,7 +88,7 @@
         },
         "end": {
           "line": 1,
-          "column": 54
+          "column": 48
         }
       }
     },
@@ -101,8 +101,8 @@
             "type": "Identifier",
             "name": "siftdown",
             "range": [
-              64,
-              72
+              58,
+              66
             ],
             "loc": {
               "start": {
@@ -119,8 +119,8 @@
             "type": "Identifier",
             "name": "siftdown",
             "range": [
-              64,
-              72
+              58,
+              66
             ],
             "loc": {
               "start": {
@@ -134,8 +134,8 @@
             }
           },
           "range": [
-            64,
-            72
+            58,
+            66
           ],
           "loc": {
             "start": {
@@ -154,8 +154,8 @@
         "value": "./core",
         "raw": "'./core'",
         "range": [
-          80,
-          88
+          74,
+          82
         ],
         "loc": {
           "start": {
@@ -169,8 +169,8 @@
         }
       },
       "range": [
-        55,
-        90
+        49,
+        84
       ],
       "loc": {
         "start": {
@@ -191,8 +191,8 @@
           "type": "Identifier",
           "name": "heapreplace",
           "range": [
-            116,
-            127
+            110,
+            121
           ],
           "loc": {
             "start": {
@@ -210,8 +210,8 @@
             "type": "Identifier",
             "name": "heap",
             "range": [
-              130,
-              134
+              124,
+              128
             ],
             "loc": {
               "start": {
@@ -228,8 +228,8 @@
             "type": "Identifier",
             "name": "item",
             "range": [
-              137,
-              141
+              131,
+              135
             ],
             "loc": {
               "start": {
@@ -255,8 +255,8 @@
                     "type": "Identifier",
                     "name": "x",
                     "range": [
-                      154,
-                      155
+                      148,
+                      149
                     ],
                     "loc": {
                       "start": {
@@ -276,8 +276,8 @@
                       "type": "Identifier",
                       "name": "heap",
                       "range": [
-                        158,
-                        162
+                        152,
+                        156
                       ],
                       "loc": {
                         "start": {
@@ -294,8 +294,8 @@
                       "type": "Identifier",
                       "name": "data",
                       "range": [
-                        163,
-                        167
+                        157,
+                        161
                       ],
                       "loc": {
                         "start": {
@@ -309,8 +309,8 @@
                       }
                     },
                     "range": [
-                      158,
-                      167
+                      152,
+                      161
                     ],
                     "loc": {
                       "start": {
@@ -324,8 +324,8 @@
                     }
                   },
                   "range": [
-                    154,
-                    167
+                    148,
+                    161
                   ],
                   "loc": {
                     "start": {
@@ -341,8 +341,8 @@
               ],
               "kind": "const",
               "range": [
-                148,
-                169
+                142,
+                163
               ],
               "loc": {
                 "start": {
@@ -364,8 +364,8 @@
                     "type": "Identifier",
                     "name": "n",
                     "range": [
-                      177,
-                      178
+                      171,
+                      172
                     ],
                     "loc": {
                       "start": {
@@ -385,8 +385,8 @@
                       "type": "Identifier",
                       "name": "x",
                       "range": [
-                        181,
-                        182
+                        175,
+                        176
                       ],
                       "loc": {
                         "start": {
@@ -403,8 +403,8 @@
                       "type": "Identifier",
                       "name": "length",
                       "range": [
-                        183,
-                        189
+                        177,
+                        183
                       ],
                       "loc": {
                         "start": {
@@ -418,8 +418,8 @@
                       }
                     },
                     "range": [
-                      181,
-                      189
+                      175,
+                      183
                     ],
                     "loc": {
                       "start": {
@@ -433,8 +433,8 @@
                     }
                   },
                   "range": [
-                    177,
-                    189
+                    171,
+                    183
                   ],
                   "loc": {
                     "start": {
@@ -450,8 +450,8 @@
               ],
               "kind": "const",
               "range": [
-                171,
-                191
+                165,
+                185
               ],
               "loc": {
                 "start": {
@@ -473,8 +473,8 @@
                   "type": "Identifier",
                   "name": "n",
                   "range": [
-                    199,
-                    200
+                    193,
+                    194
                   ],
                   "loc": {
                     "start": {
@@ -492,8 +492,8 @@
                   "value": 0,
                   "raw": "0",
                   "range": [
-                    205,
-                    206
+                    199,
+                    200
                   ],
                   "loc": {
                     "start": {
@@ -507,8 +507,8 @@
                   }
                 },
                 "range": [
-                  199,
-                  206
+                  193,
+                  200
                 ],
                 "loc": {
                   "start": {
@@ -529,8 +529,8 @@
                     "type": "Identifier",
                     "name": "IndexError",
                     "range": [
-                      219,
-                      229
+                      213,
+                      223
                     ],
                     "loc": {
                       "start": {
@@ -549,8 +549,8 @@
                       "value": "heapreplace",
                       "raw": "\"heapreplace\"",
                       "range": [
-                        231,
-                        244
+                        225,
+                        238
                       ],
                       "loc": {
                         "start": {
@@ -565,8 +565,8 @@
                     }
                   ],
                   "range": [
-                    215,
-                    246
+                    209,
+                    240
                   ],
                   "loc": {
                     "start": {
@@ -580,8 +580,8 @@
                   }
                 },
                 "range": [
-                  209,
-                  248
+                  203,
+                  242
                 ],
                 "loc": {
                   "start": {
@@ -596,8 +596,8 @@
               },
               "alternate": null,
               "range": [
-                194,
-                248
+                188,
+                242
               ],
               "loc": {
                 "start": {
@@ -619,8 +619,8 @@
                     "type": "Identifier",
                     "name": "oldroot",
                     "range": [
-                      257,
-                      264
+                      251,
+                      258
                     ],
                     "loc": {
                       "start": {
@@ -640,8 +640,8 @@
                       "type": "Identifier",
                       "name": "x",
                       "range": [
-                        267,
-                        268
+                        261,
+                        262
                       ],
                       "loc": {
                         "start": {
@@ -659,8 +659,8 @@
                       "value": 0,
                       "raw": "0",
                       "range": [
-                        269,
-                        270
+                        263,
+                        264
                       ],
                       "loc": {
                         "start": {
@@ -674,8 +674,8 @@
                       }
                     },
                     "range": [
-                      267,
-                      271
+                      261,
+                      265
                     ],
                     "loc": {
                       "start": {
@@ -689,8 +689,8 @@
                     }
                   },
                   "range": [
-                    257,
-                    271
+                    251,
+                    265
                   ],
                   "loc": {
                     "start": {
@@ -706,8 +706,8 @@
               ],
               "kind": "const",
               "range": [
-                251,
-                273
+                245,
+                267
               ],
               "loc": {
                 "start": {
@@ -732,8 +732,8 @@
                     "type": "Identifier",
                     "name": "x",
                     "range": [
-                      276,
-                      277
+                      270,
+                      271
                     ],
                     "loc": {
                       "start": {
@@ -751,8 +751,8 @@
                     "value": 0,
                     "raw": "0",
                     "range": [
-                      278,
-                      279
+                      272,
+                      273
                     ],
                     "loc": {
                       "start": {
@@ -766,8 +766,8 @@
                     }
                   },
                   "range": [
-                    276,
-                    280
+                    270,
+                    274
                   ],
                   "loc": {
                     "start": {
@@ -784,8 +784,8 @@
                   "type": "Identifier",
                   "name": "item",
                   "range": [
-                    283,
-                    287
+                    277,
+                    281
                   ],
                   "loc": {
                     "start": {
@@ -799,8 +799,8 @@
                   }
                 },
                 "range": [
-                  276,
-                  287
+                  270,
+                  281
                 ],
                 "loc": {
                   "start": {
@@ -814,8 +814,8 @@
                 }
               },
               "range": [
-                276,
-                289
+                270,
+                283
               ],
               "loc": {
                 "start": {
@@ -832,8 +832,8 @@
                   "type": "Line",
                   "value": " sift down the new root",
                   "range": [
-                    292,
-                    317
+                    286,
+                    311
                   ],
                   "loc": {
                     "start": {
@@ -856,8 +856,8 @@
                   "type": "Identifier",
                   "name": "siftdown",
                   "range": [
-                    320,
-                    328
+                    314,
+                    322
                   ],
                   "loc": {
                     "start": {
@@ -878,8 +878,8 @@
                       "type": "Identifier",
                       "name": "heap",
                       "range": [
-                        330,
-                        334
+                        324,
+                        328
                       ],
                       "loc": {
                         "start": {
@@ -896,8 +896,8 @@
                       "type": "Identifier",
                       "name": "compare",
                       "range": [
-                        335,
-                        342
+                        329,
+                        336
                       ],
                       "loc": {
                         "start": {
@@ -911,8 +911,8 @@
                       }
                     },
                     "range": [
-                      330,
-                      342
+                      324,
+                      336
                     ],
                     "loc": {
                       "start": {
@@ -929,8 +929,8 @@
                     "type": "Identifier",
                     "name": "x",
                     "range": [
-                      345,
-                      346
+                      339,
+                      340
                     ],
                     "loc": {
                       "start": {
@@ -948,8 +948,8 @@
                     "value": 0,
                     "raw": "0",
                     "range": [
-                      349,
-                      350
+                      343,
+                      344
                     ],
                     "loc": {
                       "start": {
@@ -966,8 +966,8 @@
                     "type": "Identifier",
                     "name": "n",
                     "range": [
-                      353,
-                      354
+                      347,
+                      348
                     ],
                     "loc": {
                       "start": {
@@ -985,8 +985,8 @@
                     "value": 0,
                     "raw": "0",
                     "range": [
-                      357,
-                      358
+                      351,
+                      352
                     ],
                     "loc": {
                       "start": {
@@ -1001,8 +1001,8 @@
                   }
                 ],
                 "range": [
-                  320,
-                  360
+                  314,
+                  354
                 ],
                 "loc": {
                   "start": {
@@ -1016,8 +1016,8 @@
                 }
               },
               "range": [
-                320,
-                362
+                314,
+                356
               ],
               "loc": {
                 "start": {
@@ -1034,8 +1034,8 @@
                   "type": "Line",
                   "value": " sift down the new root",
                   "range": [
-                    292,
-                    317
+                    286,
+                    311
                   ],
                   "loc": {
                     "start": {
@@ -1056,8 +1056,8 @@
                 "type": "Identifier",
                 "name": "oldroot",
                 "range": [
-                  372,
-                  379
+                  366,
+                  373
                 ],
                 "loc": {
                   "start": {
@@ -1071,8 +1071,8 @@
                 }
               },
               "range": [
-                365,
-                381
+                359,
+                375
               ],
               "loc": {
                 "start": {
@@ -1087,8 +1087,8 @@
             }
           ],
           "range": [
-            144,
-            384
+            138,
+            378
           ],
           "loc": {
             "start": {
@@ -1104,8 +1104,8 @@
         "generator": false,
         "expression": false,
         "range": [
-          107,
-          384
+          101,
+          378
         ],
         "loc": {
           "start": {
@@ -1121,8 +1121,8 @@
         "trailingComments": []
       },
       "range": [
-        92,
-        384
+        86,
+        378
       ],
       "loc": {
         "start": {
@@ -1139,7 +1139,7 @@
   "sourceType": "module",
   "range": [
     0,
-    384
+    378
   ],
   "loc": {
     "start": {
@@ -1156,8 +1156,8 @@
       "type": "Line",
       "value": " sift down the new root",
       "range": [
-        292,
-        317
+        286,
+        311
       ],
       "loc": {
         "start": {

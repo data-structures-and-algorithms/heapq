@@ -392,7 +392,7 @@
     "access": null,
     "description": null,
     "lineNumber": 1,
-    "content": "import { IndexError } from 'aureooms-js-collections' ;\nimport { siftdown } from './core' ;\n\nexport default function heappop ( heap ) {\n\n\tconst x = heap.data ;\n\tconst n = x.length ;\n\n\tif ( n === 0 ) throw new IndexError( \"heappop\" ) ;\n\n\tconst last = n - 1 ;\n\n\t// swap last leaf and root\n\n\tconst tmp = x[0] ;\n\tx[0] = x[last] ;\n\tx[last] = tmp ;\n\n\t// sift down the new root\n\n\tsiftdown( heap.compare , x , 0 , last , 0 ) ;\n\n\t// return old root\n\n\treturn x.pop( ) ;\n\n}\n"
+    "content": "import { IndexError } from 'aureooms-js-error' ;\nimport { siftdown } from './core' ;\n\nexport default function heappop ( heap ) {\n\n\tconst x = heap.data ;\n\tconst n = x.length ;\n\n\tif ( n === 0 ) throw new IndexError( \"heappop\" ) ;\n\n\tconst last = n - 1 ;\n\n\t// swap last leaf and root\n\n\tconst tmp = x[0] ;\n\tx[0] = x[last] ;\n\tx[last] = tmp ;\n\n\t// sift down the new root\n\n\tsiftdown( heap.compare , x , 0 , last , 0 ) ;\n\n\t// return old root\n\n\treturn x.pop( ) ;\n\n}\n"
   },
   {
     "__docId__": 13,
@@ -528,7 +528,7 @@
     "access": null,
     "description": null,
     "lineNumber": 1,
-    "content": "import { IndexError } from 'aureooms-js-collections' ;\nimport { siftdown } from './core' ;\n\nexport default function heapreplace ( heap , item ) {\n\n\tconst x = heap.data ;\n\tconst n = x.length ;\n\n\tif ( n === 0 ) throw new IndexError( \"heapreplace\" ) ;\n\n\tconst oldroot = x[0] ;\n\n\tx[0] = item ;\n\n\t// sift down the new root\n\n\tsiftdown( heap.compare , x , 0 , n , 0 ) ;\n\n\treturn oldroot ;\n\n}\n"
+    "content": "import { IndexError } from 'aureooms-js-error' ;\nimport { siftdown } from './core' ;\n\nexport default function heapreplace ( heap , item ) {\n\n\tconst x = heap.data ;\n\tconst n = x.length ;\n\n\tif ( n === 0 ) throw new IndexError( \"heapreplace\" ) ;\n\n\tconst oldroot = x[0] ;\n\n\tx[0] = item ;\n\n\t// sift down the new root\n\n\tsiftdown( heap.compare , x , 0 , n , 0 ) ;\n\n\treturn oldroot ;\n\n}\n"
   },
   {
     "__docId__": 19,
