@@ -1,8 +1,10 @@
 [js-heapq](http://aureooms.github.io/js-heapq)
 ==
 
-Python's heap and priority queue library for JavaScript. Parent is
-[js-data-structures](https://github.com/aureooms/js-data-structures).
+Python's heap and priority queue library for JavaScript. Parents are
+[js-data-structures](https://github.com/aureooms/js-data-structures)
+and
+[aureooms/js-heap](https://github.com/aureooms/js-heap).
 
 
 ```js
