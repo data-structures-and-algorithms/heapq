@@ -8,7 +8,7 @@ import 'babel-polyfill' ;
 
 Then
 ```js
-const number = require( 'aureooms-js-heapq' ) ;
+const number = require( '@aureooms/js-heapq' ) ;
 // or
-import number from 'aureooms-js-heapq' ;
+import number from '@aureooms/js-heapq' ;
 ```
