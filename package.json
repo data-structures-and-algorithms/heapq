@@ -1,5 +1,5 @@
 {
-  "name": "aureooms-js-heapq",
+  "name": "@aureooms/js-heapq",
   "description": "Python's heap and priority queue library for JavaScript",
   "version": "3.1.0",
   "author": "Aurélien Ooms <aurelien.ooms@gmail.com>",
@@ -23,9 +23,9 @@
     "url": "https://github.com/aureooms/js-heapq/issues"
   },
   "dependencies": {
-    "aureooms-js-compare": "^1.4.5",
-    "aureooms-js-error": "^3.0.0",
-    "aureooms-js-itertools": "^3.1.1"
+    "@aureooms/js-compare": "^1.4.5",
+    "@aureooms/js-error": "^3.0.0",
+    "@aureooms/js-itertools": "^3.1.1"
   },
   "devDependencies": {
     "ava": "^0.18.0",
