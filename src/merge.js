@@ -1,4 +1,4 @@
-import { enumerate , map , iter } from 'aureooms-js-itertools' ;
+import { enumerate , map , iter } from '@aureooms/js-itertools' ;
 
 import { keeporder } from './core' ;
 

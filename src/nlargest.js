@@ -1,4 +1,4 @@
-import { reverse } from 'aureooms-js-compare' ;
+import { reverse } from '@aureooms/js-compare' ;
 
 import nsmallest from './nsmallest' ;
 
