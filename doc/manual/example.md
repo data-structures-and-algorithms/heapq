@@ -1,3 +1,4 @@
+# Examples
 See Python's docs:
 
   - [heapq](https://docs.python.org/3.6/library/heapq.html)
