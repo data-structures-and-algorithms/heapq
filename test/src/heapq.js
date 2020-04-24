@@ -107,8 +107,8 @@ test( "heapq" , t => {
 
 	) ;
 
-	t.throws( heapq.heappop.bind( null , heapq.heapify( increasing , [ ] ) ) , IndexError , "pop raises" ) ;
-	t.throws( heapq.heapreplace.bind( null , heapq.heapify( increasing , [ ] ) , 1 ) , IndexError , "replace raises" ) ;
+	t.throws( heapq.heappop.bind( null , heapq.heapify( increasing , [ ] ) ) , { instanceOf: IndexError } , "pop raises" ) ;
+	t.throws( heapq.heapreplace.bind( null , heapq.heapify( increasing , [ ] ) , 1 ) , { instanceOf: IndexError } , "replace raises" ) ;
 
 	const h = heapq.heapify( increasing , [ ] ) ;
 
