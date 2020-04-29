@@ -29,7 +29,7 @@
   "dependencies": {
     "@aureooms/js-compare": "^1.4.5",
     "@aureooms/js-error": "^4.0.0",
-    "@aureooms/js-itertools": "^3.4.0"
+    "@aureooms/js-itertools": "^4.0.0"
   },
   "devDependencies": {
     "@babel/cli": "7.8.4",
