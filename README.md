@@ -2,9 +2,9 @@
 ==
 
 Python's heap and priority queue library for JavaScript. Parents are
-[js-data-structures](https://github.com/aureooms/js-data-structures)
+[js-data-structures](https://github.com/make-github-pseudonymous-again/js-data-structures)
 and
-[aureooms/js-heap](https://github.com/aureooms/js-heap).
+[aureooms/js-heap](https://github.com/make-github-pseudonymous-again/js-heap).
 
 
 ```js
@@ -20,18 +20,18 @@ let {
 } = heapq ;
 ```
 
-[![License](https://img.shields.io/github/license/aureooms/js-heapq.svg)](https://raw.githubusercontent.com/aureooms/js-heapq/master/LICENSE)
+[![License](https://img.shields.io/github/license/make-github-pseudonymous-again/js-heapq.svg)](https://raw.githubusercontent.com/make-github-pseudonymous-again/js-heapq/master/LICENSE)
 [![Version](https://img.shields.io/npm/v/@aureooms/js-heapq.svg)](https://www.npmjs.org/package/@aureooms/js-heapq)
-[![Build](https://img.shields.io/travis/aureooms/js-heapq/master.svg)](https://travis-ci.org/aureooms/js-heapq/branches)
-[![Dependencies](https://img.shields.io/david/aureooms/js-heapq.svg)](https://david-dm.org/aureooms/js-heapq)
-[![Dev dependencies](https://img.shields.io/david/dev/aureooms/js-heapq.svg)](https://david-dm.org/aureooms/js-heapq?type=dev)
-[![GitHub issues](https://img.shields.io/github/issues/aureooms/js-heapq.svg)](https://github.com/aureooms/js-heapq/issues)
+[![Build](https://img.shields.io/travis/make-github-pseudonymous-again/js-heapq/master.svg)](https://travis-ci.org/make-github-pseudonymous-again/js-heapq/branches)
+[![Dependencies](https://img.shields.io/david/make-github-pseudonymous-again/js-heapq.svg)](https://david-dm.org/make-github-pseudonymous-again/js-heapq)
+[![Dev dependencies](https://img.shields.io/david/dev/make-github-pseudonymous-again/js-heapq.svg)](https://david-dm.org/make-github-pseudonymous-again/js-heapq?type=dev)
+[![GitHub issues](https://img.shields.io/github/issues/make-github-pseudonymous-again/js-heapq.svg)](https://github.com/make-github-pseudonymous-again/js-heapq/issues)
 [![Downloads](https://img.shields.io/npm/dm/@aureooms/js-heapq.svg)](https://www.npmjs.org/package/@aureooms/js-heapq)
 
-[![Code issues](https://img.shields.io/codeclimate/issues/aureooms/js-heapq.svg)](https://codeclimate.com/github/aureooms/js-heapq/issues)
-[![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-heapq.svg)](https://codeclimate.com/github/aureooms/js-heapq/trends/churn)
-[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-heapq/master.svg)](https://codecov.io/gh/aureooms/js-heapq)
-[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-heapq.svg)](https://codeclimate.com/github/aureooms/js-heapq/trends/technical_debt)
+[![Code issues](https://img.shields.io/codeclimate/issues/make-github-pseudonymous-again/js-heapq.svg)](https://codeclimate.com/github/make-github-pseudonymous-again/js-heapq/issues)
+[![Code maintainability](https://img.shields.io/codeclimate/maintainability/make-github-pseudonymous-again/js-heapq.svg)](https://codeclimate.com/github/make-github-pseudonymous-again/js-heapq/trends/churn)
+[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/make-github-pseudonymous-again/js-heapq/master.svg)](https://codecov.io/gh/make-github-pseudonymous-again/js-heapq)
+[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/make-github-pseudonymous-again/js-heapq.svg)](https://codeclimate.com/github/make-github-pseudonymous-again/js-heapq/trends/technical_debt)
 [![Documentation](https://make-github-pseudonymous-again.github.io/js-heapq/badge.svg)](https://make-github-pseudonymous-again.github.io/js-heapq/source.html)
 [![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-heapq)](https://bundlephobia.com/result?p=@aureooms/js-heapq)
 

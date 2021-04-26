@@ -24,7 +24,7 @@
     }
   },
   "bugs": {
-    "url": "https://github.com/aureooms/js-heapq/issues"
+    "url": "https://github.com/make-github-pseudonymous-again/js-heapq/issues"
   },
   "dependencies": {
     "@aureooms/js-compare": "^1.4.5",
@@ -61,7 +61,7 @@
   "license": "AGPL-3.0",
   "main": "lib/index.js",
   "repository": {
-    "url": "https://github.com/aureooms/js-heapq.git",
+    "url": "https://github.com/make-github-pseudonymous-again/js-heapq.git",
     "type": "git"
   },
   "scripts": {
