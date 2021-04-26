@@ -1,4 +1,4 @@
-[js-heapq](http://aureooms.github.io/js-heapq)
+[js-heapq](http://make-github-pseudonymous-again.github.io/js-heapq)
 ==
 
 Python's heap and priority queue library for JavaScript. Parents are
@@ -32,7 +32,7 @@ let {
 [![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-heapq.svg)](https://codeclimate.com/github/aureooms/js-heapq/trends/churn)
 [![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-heapq/master.svg)](https://codecov.io/gh/aureooms/js-heapq)
 [![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-heapq.svg)](https://codeclimate.com/github/aureooms/js-heapq/trends/technical_debt)
-[![Documentation](https://aureooms.github.io/js-heapq/badge.svg)](https://aureooms.github.io/js-heapq/source.html)
+[![Documentation](https://make-github-pseudonymous-again.github.io/js-heapq/badge.svg)](https://make-github-pseudonymous-again.github.io/js-heapq/source.html)
 [![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-heapq)](https://bundlephobia.com/result?p=@aureooms/js-heapq)
 
 ## References
