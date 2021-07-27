@@ -137,7 +137,22 @@
         ]
       },
       "development": {
-        "sourceMaps": "inline"
+        "sourceMaps": "inline",
+        "presets": [
+          "babel-preset-power-assert"
+        ],
+        "plugins": [
+          [
+            "transform-remove-console",
+            {
+              "exclude": [
+                "log",
+                "error",
+                "warn"
+              ]
+            }
+          ]
+        ]
       }
     }
   }
