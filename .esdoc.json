@@ -17,7 +17,7 @@
           "autoPrivate": true
         },
         "brand": {
-          "title": "@data-structure/heapq"
+          "title": "@data-structures-and-algorithms/heapq"
         },
         "test": {
           "type": "ava",
