@@ -53,6 +53,7 @@
     "@babel/register": "7.13.8",
     "@iterable-iterator/list": "^1.0.1",
     "ava": "3.15.0",
+    "babel-plugin-transform-remove-console": "6.9.4",
     "c8": "7.7.3",
     "coveralls": "3.1.0",
     "esdoc": "1.1.0",
