@@ -1,4 +1,5 @@
-[js-heapq](https://data-structures-and-algorithms.github.io/heapq)
+:vertical_traffic_light:
+[@data-structure/heapq](https://data-structures-and-algorithms.github.io/heapq)
 ==
 
 Python's heap and priority queue library for JavaScript. Parents are
@@ -8,7 +9,7 @@ and
 
 
 ```js
-let {
+import {
 	heapify ,
 	heappop ,
 	heappush ,
@@ -17,7 +18,7 @@ let {
 	merge ,
 	nlargest ,
 	nsmallest ,
-} = heapq ;
+} from '@data-structure/heapq' ;
 ```
 
 [![License](https://img.shields.io/github/license/data-structures-and-algorithms/heapq.svg)](https://raw.githubusercontent.com/data-structures-and-algorithms/heapq/main/LICENSE)
@@ -35,6 +36,6 @@ let {
 [![Documentation](https://data-structures-and-algorithms.github.io/heapq/badge.svg)](https://data-structures-and-algorithms.github.io/heapq/source.html)
 [![Package size](https://img.shields.io/bundlephobia/minzip/@data-structures-and-algorithms/heapq)](https://bundlephobia.com/result?p=@data-structures-and-algorithms/heapq)
 
-## References
+## :scroll: References
 
   - [Python's heapq library](https://docs.python.org/3.6/library/heapq.html).

@@ -1,5 +1,5 @@
 {
-  "name": "@data-structures-and-algorithms/heapq",
+  "name": "@data-structure/heapq",
   "description": "Python's heap and priority queue library for JavaScript",
   "version": "3.1.0",
   "license": "AGPL-3.0",
