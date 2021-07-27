@@ -1,9 +1,7 @@
-import { reversed } from '@total-order/reversed' ;
+import {reversed} from '@total-order/reversed';
 
-import nsmallest from './nsmallest.js' ;
+import nsmallest from './nsmallest.js';
 
-export default function nlargest ( compare , n , iterable ) {
-
-	return nsmallest( reversed( compare ) , n , iterable ) ;
-
+export default function nlargest(compare, n, iterable) {
+	return nsmallest(reversed(compare), n, iterable);
 }

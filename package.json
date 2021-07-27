@@ -198,6 +198,7 @@
       "unicorn"
     ],
     "rules": {
+      "unicorn/prefer-node-protocol": "off",
       "unicorn/filename-case": "off",
       "camelcase": "off",
       "unicorn/prevent-abbreviations": "off",

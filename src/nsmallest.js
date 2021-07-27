@@ -3,57 +3,52 @@ import {sorted} from '@iterable-iterator/sorted';
 import {forwardRangeIterator} from '@iterable-iterator/range';
 import {iter} from '@iterable-iterator/iter';
 import {_zip2} from '@iterable-iterator/zip';
-import { reversed } from '@total-order/reversed' ;
+import {reversed} from '@total-order/reversed';
 
-import { keeporder } from './core/index.js' ;
+import {keeporder} from './core/index.js';
 
-import heapify from './heapify.js' ;
-import heapreplace from './heapreplace.js' ;
+import heapify from './heapify.js';
+import heapreplace from './heapreplace.js';
 
-export default function nsmallest ( compare , n , iterable ) {
+export default function nsmallest(compare, n, iterable) {
+	if (n === 1) {
+		const sentinel = {};
 
-	if ( n === 1 ) {
+		const result = min(compare, iterable, sentinel);
 
-		const sentinel = { } ;
-
-		const result = min( compare , iterable , sentinel ) ;
-
-		return result === sentinel ? [ ] : [ result ] ;
-
+		return result === sentinel ? [] : [result];
 	}
 
-	if ( iterable.length !== undefined ) {
+	if (iterable.length !== undefined && n >= iterable.length)
+		return sorted(compare, iterable);
 
-		if ( n >= iterable.length ) return sorted( compare , iterable ) ;
+	const it = iter(iterable);
 
-	}
+	const result = Array.from(
+		_zip2(forwardRangeIterator(0, n, 1), it),
+		([i, elem]) => [elem, i],
+	);
 
-	const it = iter( iterable ) ;
+	if (result.length === 0) return result;
 
-	const result = Array.from( _zip2( forwardRangeIterator( 0 , n , 1 ) , it ) , ( [ i , elem ] ) => [ elem , i ] ) ;
+	const h = heapify(keeporder(reversed(compare)), result);
 
-	if ( result.length === 0 ) return result ;
+	let top = result[0][0];
 
-	const h = heapify( keeporder( reversed( compare ) ) , result ) ;
+	let order = n;
 
-	let top = result[0][0] ;
+	for (const elem of it) {
+		if (compare(elem, top) < 0) {
+			heapreplace(h, [elem, order]);
 
-	let order = n ;
+			top = result[0][0];
 
-	for ( const elem of it ) {
-
-		if ( compare( elem , top ) < 0 ) {
-
-			heapreplace( h , [ elem , order ] ) ;
-
-			top = result[0][0] ;
-
-			++order ;
-
+			++order;
 		}
-
 	}
 
-	return sorted( compare , Array.from( result , r => r[0] ) ) ;
-
+	return sorted(
+		compare,
+		Array.from(result, (r) => r[0]),
+	);
 }

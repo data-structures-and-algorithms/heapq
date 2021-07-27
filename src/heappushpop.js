@@ -1,24 +1,22 @@
-import { siftdown } from './core/index.js' ;
+import {siftdown} from './core/index.js';
 
-export default function heappushpop ( heap , item ) {
+export default function heappushpop(heap, item) {
+	const x = heap.data;
+	const n = x.length;
 
-	const x = heap.data ;
-	const n = x.length ;
+	if (n === 0) return item;
 
-	if ( n === 0 ) return item ;
+	const compare = heap.compare;
 
-	const compare = heap.compare ;
+	if (compare(item, x[0]) <= 0) return item;
 
-	if ( compare( item , x[0] ) <= 0 ) return item ;
+	const smallest = x[0];
 
-	const smallest = x[0] ;
+	x[0] = item;
 
-	x[0] = item ;
+	// Sift down the new root
 
-	// sift down the new root
+	siftdown(compare, x, 0, n, 0);
 
-	siftdown( compare , x , 0 , n , 0 ) ;
-
-	return smallest ;
-
+	return smallest;
 }

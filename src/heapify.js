@@ -1,4 +1,4 @@
-import { siftdown , Heap } from './core/index.js' ;
+import {siftdown, Heap} from './core/index.js';
 
 /**
  * Builds a heap in O(n) operations.
@@ -8,16 +8,12 @@ import { siftdown , Heap } from './core/index.js' ;
  *
  */
 
-export default function heapify ( compare , x ) {
+export default function heapify(compare, x) {
+	const n = x.length;
 
-	const n = x.length ;
-
-	for ( let k = n / 2 | 0 ; k ; ) {
-
-		siftdown( compare , x , 0 , n , --k ) ;
-
+	for (let k = (n / 2) | 0; k; ) {
+		siftdown(compare, x, 0, n, --k);
 	}
 
-	return new Heap( compare , x ) ;
-
+	return new Heap(compare, x);
 }

@@ -1,21 +1,19 @@
-import { IndexError } from '@failure-abstraction/error' ;
-import { siftdown } from './core/index.js' ;
+import {IndexError} from '@failure-abstraction/error';
+import {siftdown} from './core/index.js';
 
-export default function heapreplace ( heap , item ) {
+export default function heapreplace(heap, item) {
+	const x = heap.data;
+	const n = x.length;
 
-	const x = heap.data ;
-	const n = x.length ;
+	if (n === 0) throw new IndexError('heapreplace');
 
-	if ( n === 0 ) throw new IndexError( "heapreplace" ) ;
+	const oldroot = x[0];
 
-	const oldroot = x[0] ;
+	x[0] = item;
 
-	x[0] = item ;
+	// Sift down the new root
 
-	// sift down the new root
+	siftdown(heap.compare, x, 0, n, 0);
 
-	siftdown( heap.compare , x , 0 , n , 0 ) ;
-
-	return oldroot ;
-
+	return oldroot;
 }

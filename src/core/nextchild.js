@@ -1,4 +1,4 @@
-
+import assert from 'assert';
 
 /**
  * Computes which child is the smallest according
@@ -8,16 +8,15 @@
  *
  * @param {function} compare the comparison function
  * @param {array} a the array where the heap is stored
- * @param {int} i is the first child
- * @param {int} j - 1 is the last leaf
+ * @param {number} i is the first child
+ * @param {number} j - 1 is the last leaf
+ *
+ * @return {number}
  */
+export default function nextchild(compare, a, i, j) {
+	assert(i < j);
+	if (j - i === 1) return i;
 
-export default function nextchild ( compare , a , i , j ) {
-
-	if ( j - i < 2 ) return i ;
-
-	if ( compare( a[i] , a[i+1] ) <= 0 ) return i ;
-
-	return i + 1 ;
-
+	assert(j - i >= 2);
+	return compare(a[i], a[i + 1]) <= 0 ? i : i + 1;
 }
