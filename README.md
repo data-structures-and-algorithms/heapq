@@ -1,4 +1,4 @@
-[js-heapq](http://data-structures-and-algorithms.github.io/heapq)
+[js-heapq](https://data-structures-and-algorithms.github.io/heapq)
 ==
 
 Python's heap and priority queue library for JavaScript. Parents are
