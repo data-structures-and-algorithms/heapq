@@ -22,7 +22,7 @@ let {
 
 [![License](https://img.shields.io/github/license/data-structures-and-algorithms/heapq.svg)](https://raw.githubusercontent.com/data-structures-and-algorithms/heapq/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@data-structures-and-algorithms/heapq.svg)](https://www.npmjs.org/package/@data-structures-and-algorithms/heapq)
-[![Build](https://img.shields.io/travis/data-structures-and-algorithms/heapq/main.svg)](https://travis-ci.org/data-structures-and-algorithms/heapq/branches)
+[![Build](https://img.shields.io/travis/data-structures-and-algorithms/heapq/main.svg)](https://travis-ci.com/data-structures-and-algorithms/heapq/branches)
 [![Dependencies](https://img.shields.io/david/data-structures-and-algorithms/heapq.svg)](https://david-dm.org/data-structures-and-algorithms/heapq)
 [![Dev dependencies](https://img.shields.io/david/dev/data-structures-and-algorithms/heapq.svg)](https://david-dm.org/data-structures-and-algorithms/heapq?type=dev)
 [![GitHub issues](https://img.shields.io/github/issues/data-structures-and-algorithms/heapq.svg)](https://github.com/data-structures-and-algorithms/heapq/issues)
