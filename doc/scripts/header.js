@@ -13,7 +13,7 @@ domReady(() => {
 	projectname.text = 'data-structures-and-algorithms/heapq';
 	projectname.href = './index.html';
 
-	const header = document.querySelectorAll('header')[0];
+	const header = document.querySelector('header');
 	header.insertBefore(projectname, header.firstChild);
 
 	const testlink = document.querySelector('header > a[data-ice="testLink"]');
