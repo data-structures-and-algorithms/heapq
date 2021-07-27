@@ -29,9 +29,13 @@
     "build-docs": "esdoc",
     "build-gh-pages": "npm run build-docs",
     "cover": "c8 --all --src src --reporter=lcov npm test",
+    "install-hooks": "husky install",
     "lint-config": "fixpack --dryRun",
     "lint-config-and-fix": "fixpack || fixpack",
+    "postinstall": "npm run install-hooks",
+    "postpublish": "pinst --enable",
     "prepare": "npm run build",
+    "prepublishOnly": "pinst --disable",
     "release": "np",
     "test": "ava"
   },
@@ -63,7 +67,9 @@
     "esdoc-inject-style-plugin": "1.0.0",
     "esdoc-standard-plugin": "1.0.0",
     "fixpack": "4.0.0",
+    "husky": "7.0.1",
     "np": "7.4.0",
+    "pinst": "2.1.6",
     "power-assert": "1.6.1",
     "regenerator-runtime": "0.13.9",
     "xo": "0.42.0"
