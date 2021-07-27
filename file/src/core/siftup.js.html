@@ -3,16 +3,12 @@
 <head>
   <meta charset="utf-8">
   <base data-ice="baseUrl" href="../../../">
-  <title data-ice="title">src/core/siftup.js | aureooms/js-heapq API Document</title>
+  <title data-ice="title">src/core/siftup.js | @data-structures-and-algorithms/heapq</title>
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
-  
-  
   <script src="script/manual.js"></script>
-<script data-ice="userScript" src="user/script/0-header.js"></script>
-<link data-ice="userStyle" rel="stylesheet" href="user/css/0-style.css">
-</head>
+<link rel="stylesheet" href="./inject/css/0-style.css"><script src="./inject/script/0-header.js"></script><meta name="description" content="Python&apos;s heap and priority queue library for JavaScript"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="@data-structures-and-algorithms/heapq"><meta property="twitter:description" content="Python&apos;s heap and priority queue library for JavaScript"></head>
 <body class="layout-container" data-ice="rootContainer">
 
 <header>
@@ -20,8 +16,7 @@
   <a href="./manual/index.html" data-ice="manualHeaderLink">Manual</a>
   <a href="identifiers.html">Reference</a>
   <a href="source.html">Source</a>
-  <a href="test.html" data-ice="testLink">Test</a>
-  <a data-ice="repoURL" href="https://github.com/aureooms/js-heapq.git" class="repo-url-github">Repository</a>
+  
   <div class="search-box">
   <span>
     <img src="./image/search.png">
@@ -29,7 +24,7 @@
   </span>
     <ul class="search-result"></ul>
   </div>
-</header>
+<a style="position:relative; top:3px;" href="https://github.com/data-structures-and-algorithms/heapq"><img width="20px" src="./image/github.png"></a></header>
 
 <nav class="navigation" data-ice="nav"><div>
   <ul>
@@ -42,65 +37,60 @@
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-merge">merge</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-nlargest">nlargest</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-nsmallest">nsmallest</a></span></span></li>
-<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">core</div><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Heap">Heap</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#core">core</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Heap">Heap</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-keeporder">keeporder</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-nextchild">nextchild</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-siftdown">siftdown</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-siftup">siftup</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-keeporder">keeporder</a></span></span></li>
 </ul>
 </div>
 </nav>
 
 <div class="content" data-ice="content"><h1 data-ice="title">src/core/siftup.js</h1>
-<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">
-/**
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">/**
  * Sifts up a node.
  *
  * @param {function} compare the comparison function
  * @param {array} a the array where the heap is stored
- * @param {int} i is the root element
- * @param {int} j - 1 is the last leaf
- * @param {int} k is the target node
+ * @param {number} i is the root element
+ * @param {number} j - 1 is the last leaf
+ * @param {number} k is the target node
  */
 
-export default function siftup ( compare , a , i , j , k ) {
+export default function siftup(compare, a, i, j, k) {
+	let current = k - i;
 
-	let current = k - i ;
+	// While we are not the root
 
-	// while we are not the root
-
-	while ( current !== 0 ) {
-
-		// address of the parent in a zero-based
+	while (current !== 0) {
+		// Address of the parent in a zero-based
 		// d-ary heap
 
-		const parent = i + ( ( current - 1 ) &gt;&gt;&gt; 1 ) ;
+		const parent = i + ((current - 1) &gt;&gt;&gt; 1);
 
-		// if current value is greater than its parent
+		// If current value is greater than its parent
 		// then we are done
 
-		if ( compare( a[i + current], a[parent] ) &gt;= 0 ) return i + current ;
+		if (compare(a[i + current], a[parent]) &gt;= 0) return i + current;
 
-		// otherwise
+		// Otherwise
 		// swap with parent
 
-		const tmp = a[i+current] ;
-		a[i+current] = a[parent] ;
-		a[parent] = tmp ;
+		const tmp = a[i + current];
+		a[i + current] = a[parent];
+		a[parent] = tmp;
 
-		current = parent - i ;
-
+		current = parent - i;
 	}
 
-	return i + current ;
-
+	return i + current;
 }
 </code></pre>
 
 </div>
 
 <footer class="footer">
-  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(0.4.8)</span></a>
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
 </footer>
 
 <script src="script/search_index.js"></script>

@@ -3,16 +3,12 @@
 <head>
   <meta charset="utf-8">
   <base data-ice="baseUrl" href="../../">
-  <title data-ice="title">src/merge.js | aureooms/js-heapq API Document</title>
+  <title data-ice="title">src/merge.js | @data-structures-and-algorithms/heapq</title>
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
-  
-  
   <script src="script/manual.js"></script>
-<script data-ice="userScript" src="user/script/0-header.js"></script>
-<link data-ice="userStyle" rel="stylesheet" href="user/css/0-style.css">
-</head>
+<link rel="stylesheet" href="./inject/css/0-style.css"><script src="./inject/script/0-header.js"></script><meta name="description" content="Python&apos;s heap and priority queue library for JavaScript"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="@data-structures-and-algorithms/heapq"><meta property="twitter:description" content="Python&apos;s heap and priority queue library for JavaScript"></head>
 <body class="layout-container" data-ice="rootContainer">
 
 <header>
@@ -20,8 +16,7 @@
   <a href="./manual/index.html" data-ice="manualHeaderLink">Manual</a>
   <a href="identifiers.html">Reference</a>
   <a href="source.html">Source</a>
-  <a href="test.html" data-ice="testLink">Test</a>
-  <a data-ice="repoURL" href="https://github.com/aureooms/js-heapq.git" class="repo-url-github">Repository</a>
+  
   <div class="search-box">
   <span>
     <img src="./image/search.png">
@@ -29,7 +24,7 @@
   </span>
     <ul class="search-result"></ul>
   </div>
-</header>
+<a style="position:relative; top:3px;" href="https://github.com/data-structures-and-algorithms/heapq"><img width="20px" src="./image/github.png"></a></header>
 
 <nav class="navigation" data-ice="nav"><div>
   <ul>
@@ -42,84 +37,76 @@
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-merge">merge</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-nlargest">nlargest</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-nsmallest">nsmallest</a></span></span></li>
-<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">core</div><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Heap">Heap</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#core">core</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Heap">Heap</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-keeporder">keeporder</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-nextchild">nextchild</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-siftdown">siftdown</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-siftup">siftup</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-keeporder">keeporder</a></span></span></li>
 </ul>
 </div>
 </nav>
 
 <div class="content" data-ice="content"><h1 data-ice="title">src/merge.js</h1>
-<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import { enumerate , map , iter } from &apos;aureooms-js-itertools&apos; ;
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import {enumerate} from &apos;@iterable-iterator/zip&apos;;
+import {map} from &apos;@iterable-iterator/map&apos;;
+import {iter} from &apos;@iterable-iterator/iter&apos;;
 
-import { keeporder } from &apos;./core&apos; ;
+import {keeporder} from &apos;./core/index.js&apos;;
 
-import heapify from &apos;./heapify&apos; ;
-import heappop from &apos;./heappop&apos; ;
-import heapreplace from &apos;./heapreplace&apos; ;
+import heapify from &apos;./heapify.js&apos;;
+import heappop from &apos;./heappop.js&apos;;
+import heapreplace from &apos;./heapreplace.js&apos;;
 
-export default function* merge ( compare , ...iterables ) {
+export default function* merge(compare, ...iterables) {
+	const x = [];
 
-	const x = [ ] ;
+	for (const [order, it] of enumerate(map(iter, iterables))) {
+		const rv = it.next();
 
-	for ( let [ order , it ] of enumerate( map( iter , iterables ) ) ) {
+		if (rv.done) continue;
 
-		const rv = it.next() ;
-
-		if ( rv.done ) continue ;
-
-		x.push( [ rv.value , order , it ] ) ;
-
+		x.push([rv.value, order, it]);
 	}
 
-	const h = heapify( keeporder( compare ) , x ) ;
+	const h = heapify(keeporder(compare), x);
 
-	while ( x.length &gt; 1 ) {
+	while (x.length &gt; 1) {
+		while (true) {
+			const s = x[0];
+			const value = s[0];
+			const it = s[2];
 
-		while ( true ) {
+			yield value;
 
-			const s = x[0] ;
+			const rv = it.next();
 
-			const [ value , order , it ] = s ;
-
-			yield value ;
-
-			const rv = it.next() ;
-
-			if ( rv.done ) {
-
-				heappop( h ) ;
-				break ;
-
+			if (rv.done) {
+				heappop(h);
+				break;
 			}
 
-			s[0] = rv.value ;
+			s[0] = rv.value;
 
-			heapreplace( h , s ) ;
-
+			heapreplace(h, s);
 		}
-
 	}
 
-	if ( x.length &gt; 0 ) {
+	if (x.length &gt; 0) {
+		const s = x[0];
+		const value = s[0];
+		const it = s[2];
 
-		const [ value , order , it ] = x[0] ;
+		yield value;
 
-		yield value ;
-
-		yield *it ;
-
+		yield* it;
 	}
-
 }
 </code></pre>
 
 </div>
 
 <footer class="footer">
-  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(0.4.8)</span></a>
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
 </footer>
 
 <script src="script/search_index.js"></script>

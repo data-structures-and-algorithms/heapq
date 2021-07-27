@@ -1,0 +1,1351 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/core/Heap.js",
+    "content": "export default function Heap(compare, data) {\n\tthis.compare = compare;\n\tthis.data = data;\n}\n",
+    "static": true,
+    "longname": "/home/runner/work/heapq/heapq/src/core/Heap.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "function",
+    "name": "Heap",
+    "memberof": "src/core/Heap.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/core/Heap.js~Heap",
+    "access": "public",
+    "export": true,
+    "importPath": "@data-structure/heapq/src/core/Heap.js",
+    "importStyle": "Heap",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "compare",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "data",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 50,
+    "kind": "file",
+    "name": "src/core/index.js",
+    "content": "import Heap from './Heap.js';\nimport keeporder from './keeporder.js';\nimport nextchild from './nextchild.js';\nimport siftdown from './siftdown.js';\nimport siftup from './siftup.js';\n\nexport {Heap, keeporder, nextchild, siftdown, siftup};\n",
+    "static": true,
+    "longname": "/home/runner/work/heapq/heapq/src/core/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 51,
+    "kind": "file",
+    "name": "src/core/keeporder.js",
+    "content": "import {increasing} from '@total-order/primitive';\n\nconst keeporder = (compare) => (a, b) =>\n\tcompare(a[0], b[0]) || increasing(a[1], b[1]);\n\nexport default keeporder;\n",
+    "static": true,
+    "longname": "/home/runner/work/heapq/heapq/src/core/keeporder.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 52,
+    "kind": "function",
+    "name": "keeporder",
+    "memberof": "src/core/keeporder.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/core/keeporder.js~keeporder",
+    "access": "public",
+    "export": true,
+    "importPath": "@data-structure/heapq/src/core/keeporder.js",
+    "importStyle": "keeporder",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "compare",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 53,
+    "kind": "file",
+    "name": "src/core/nextchild.js",
+    "content": "import assert from 'assert';\n\n/**\n * Computes which child is the smallest according\n * to a comparison function.\n *\n * Hypothesis : i < j i.e. there should be at least one child\n *\n * @param {function} compare the comparison function\n * @param {array} a the array where the heap is stored\n * @param {number} i is the first child\n * @param {number} j - 1 is the last leaf\n *\n * @return {number}\n */\nexport default function nextchild(compare, a, i, j) {\n\tassert(i < j);\n\tif (j - i === 1) return i;\n\n\tassert(j - i >= 2);\n\treturn compare(a[i], a[i + 1]) <= 0 ? i : i + 1;\n}\n",
+    "static": true,
+    "longname": "/home/runner/work/heapq/heapq/src/core/nextchild.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 54,
+    "kind": "function",
+    "name": "nextchild",
+    "memberof": "src/core/nextchild.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/core/nextchild.js~nextchild",
+    "access": "public",
+    "export": true,
+    "importPath": "@data-structure/heapq/src/core/nextchild.js",
+    "importStyle": "nextchild",
+    "description": "Computes which child is the smallest according\nto a comparison function.\n\nHypothesis : i < j i.e. there should be at least one child",
+    "lineNumber": 16,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "compare",
+        "description": "the comparison function"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "array"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "a",
+        "description": "the array where the heap is stored"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "i",
+        "description": "is the first child"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "j",
+        "description": "1 is the last leaf"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 55,
+    "kind": "file",
+    "name": "src/core/siftdown.js",
+    "content": "import nextchild from './nextchild.js';\n\n/**\n * Sifts down a node.\n *\n * @param {function} compare the comparison function\n * @param {array} a the array where the heap is stored\n * @param {number} i is the root element\n * @param {number} j - 1 is the last leaf\n * @param {number} k is the target node\n */\n\nexport default function siftdown(compare, a, i, j, k) {\n\tlet current = k - i;\n\n\twhile (true) {\n\t\t// Address of the first child in a zero-based\n\t\t// binary heap\n\n\t\tconst firstchild = 2 * current + 1;\n\n\t\t// If current node has no children\n\t\t// then we are done\n\n\t\tif (firstchild >= j - i) break;\n\n\t\t// If current value is smaller than its smallest\n\t\t// child then we are done\n\n\t\tconst candidate = nextchild(compare, a, i + firstchild, j);\n\n\t\tif (compare(a[i + current], a[candidate]) <= 0) break;\n\n\t\t// Otherwise\n\t\t// swap with smallest child\n\n\t\tconst tmp = a[i + current];\n\t\ta[i + current] = a[candidate];\n\t\ta[candidate] = tmp;\n\n\t\tcurrent = candidate - i;\n\t}\n\n\treturn i + current;\n}\n",
+    "static": true,
+    "longname": "/home/runner/work/heapq/heapq/src/core/siftdown.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 56,
+    "kind": "function",
+    "name": "siftdown",
+    "memberof": "src/core/siftdown.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/core/siftdown.js~siftdown",
+    "access": "public",
+    "export": true,
+    "importPath": "@data-structure/heapq/src/core/siftdown.js",
+    "importStyle": "siftdown",
+    "description": "Sifts down a node.",
+    "lineNumber": 13,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "compare",
+        "description": "the comparison function"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "array"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "a",
+        "description": "the array where the heap is stored"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "i",
+        "description": "is the root element"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "j",
+        "description": "1 is the last leaf"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "k",
+        "description": "is the target node"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 57,
+    "kind": "file",
+    "name": "src/core/siftup.js",
+    "content": "/**\n * Sifts up a node.\n *\n * @param {function} compare the comparison function\n * @param {array} a the array where the heap is stored\n * @param {number} i is the root element\n * @param {number} j - 1 is the last leaf\n * @param {number} k is the target node\n */\n\nexport default function siftup(compare, a, i, j, k) {\n\tlet current = k - i;\n\n\t// While we are not the root\n\n\twhile (current !== 0) {\n\t\t// Address of the parent in a zero-based\n\t\t// d-ary heap\n\n\t\tconst parent = i + ((current - 1) >>> 1);\n\n\t\t// If current value is greater than its parent\n\t\t// then we are done\n\n\t\tif (compare(a[i + current], a[parent]) >= 0) return i + current;\n\n\t\t// Otherwise\n\t\t// swap with parent\n\n\t\tconst tmp = a[i + current];\n\t\ta[i + current] = a[parent];\n\t\ta[parent] = tmp;\n\n\t\tcurrent = parent - i;\n\t}\n\n\treturn i + current;\n}\n",
+    "static": true,
+    "longname": "/home/runner/work/heapq/heapq/src/core/siftup.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 58,
+    "kind": "function",
+    "name": "siftup",
+    "memberof": "src/core/siftup.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/core/siftup.js~siftup",
+    "access": "public",
+    "export": true,
+    "importPath": "@data-structure/heapq/src/core/siftup.js",
+    "importStyle": "siftup",
+    "description": "Sifts up a node.",
+    "lineNumber": 11,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "compare",
+        "description": "the comparison function"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "array"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "a",
+        "description": "the array where the heap is stored"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "i",
+        "description": "is the root element"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "j",
+        "description": "1 is the last leaf"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "k",
+        "description": "is the target node"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 59,
+    "kind": "file",
+    "name": "src/heapify.js",
+    "content": "import {siftdown, Heap} from './core/index.js';\n\n/**\n * Builds a heap in O(n) operations.\n *\n * @param {function} compare the comparison function\n * @param {array} x the array where the heap is stored\n *\n */\n\nexport default function heapify(compare, x) {\n\tconst n = x.length;\n\n\tfor (let k = (n / 2) | 0; k; ) {\n\t\tsiftdown(compare, x, 0, n, --k);\n\t}\n\n\treturn new Heap(compare, x);\n}\n",
+    "static": true,
+    "longname": "/home/runner/work/heapq/heapq/src/heapify.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 60,
+    "kind": "function",
+    "name": "heapify",
+    "memberof": "src/heapify.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/heapify.js~heapify",
+    "access": "public",
+    "export": true,
+    "importPath": "@data-structure/heapq/src/heapify.js",
+    "importStyle": "heapify",
+    "description": "Builds a heap in O(n) operations.",
+    "lineNumber": 11,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "compare",
+        "description": "the comparison function"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "array"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "x",
+        "description": "the array where the heap is stored"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 61,
+    "kind": "file",
+    "name": "src/heappop.js",
+    "content": "import {IndexError} from '@failure-abstraction/error';\nimport {siftdown} from './core/index.js';\n\nexport default function heappop(heap) {\n\tconst x = heap.data;\n\tconst n = x.length;\n\n\tif (n === 0) throw new IndexError('heappop');\n\n\tconst last = n - 1;\n\n\t// Swap last leaf and root\n\n\tconst tmp = x[0];\n\tx[0] = x[last];\n\tx[last] = tmp;\n\n\t// Sift down the new root\n\n\tsiftdown(heap.compare, x, 0, last, 0);\n\n\t// Return old root\n\n\treturn x.pop();\n}\n",
+    "static": true,
+    "longname": "/home/runner/work/heapq/heapq/src/heappop.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 62,
+    "kind": "function",
+    "name": "heappop",
+    "memberof": "src/heappop.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/heappop.js~heappop",
+    "access": "public",
+    "export": true,
+    "importPath": "@data-structure/heapq/src/heappop.js",
+    "importStyle": "heappop",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "params": [
+      {
+        "name": "heap",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 63,
+    "kind": "file",
+    "name": "src/heappush.js",
+    "content": "import {siftup} from './core/index.js';\n\nexport default function heappush(heap, item) {\n\tconst x = heap.data;\n\tconst n = x.length;\n\n\tx.push(item);\n\n\t// Sift up the new leaf\n\n\tsiftup(heap.compare, x, 0, n + 1, n);\n}\n",
+    "static": true,
+    "longname": "/home/runner/work/heapq/heapq/src/heappush.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 64,
+    "kind": "function",
+    "name": "heappush",
+    "memberof": "src/heappush.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/heappush.js~heappush",
+    "access": "public",
+    "export": true,
+    "importPath": "@data-structure/heapq/src/heappush.js",
+    "importStyle": "heappush",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "heap",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "item",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 65,
+    "kind": "file",
+    "name": "src/heappushpop.js",
+    "content": "import {siftdown} from './core/index.js';\n\nexport default function heappushpop(heap, item) {\n\tconst x = heap.data;\n\tconst n = x.length;\n\n\tif (n === 0) return item;\n\n\tconst compare = heap.compare;\n\n\tif (compare(item, x[0]) <= 0) return item;\n\n\tconst smallest = x[0];\n\n\tx[0] = item;\n\n\t// Sift down the new root\n\n\tsiftdown(compare, x, 0, n, 0);\n\n\treturn smallest;\n}\n",
+    "static": true,
+    "longname": "/home/runner/work/heapq/heapq/src/heappushpop.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 66,
+    "kind": "function",
+    "name": "heappushpop",
+    "memberof": "src/heappushpop.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/heappushpop.js~heappushpop",
+    "access": "public",
+    "export": true,
+    "importPath": "@data-structure/heapq/src/heappushpop.js",
+    "importStyle": "heappushpop",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "heap",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "item",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 67,
+    "kind": "file",
+    "name": "src/heapreplace.js",
+    "content": "import {IndexError} from '@failure-abstraction/error';\nimport {siftdown} from './core/index.js';\n\nexport default function heapreplace(heap, item) {\n\tconst x = heap.data;\n\tconst n = x.length;\n\n\tif (n === 0) throw new IndexError('heapreplace');\n\n\tconst oldroot = x[0];\n\n\tx[0] = item;\n\n\t// Sift down the new root\n\n\tsiftdown(heap.compare, x, 0, n, 0);\n\n\treturn oldroot;\n}\n",
+    "static": true,
+    "longname": "/home/runner/work/heapq/heapq/src/heapreplace.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 68,
+    "kind": "function",
+    "name": "heapreplace",
+    "memberof": "src/heapreplace.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/heapreplace.js~heapreplace",
+    "access": "public",
+    "export": true,
+    "importPath": "@data-structure/heapq/src/heapreplace.js",
+    "importStyle": "heapreplace",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "params": [
+      {
+        "name": "heap",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "item",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 69,
+    "kind": "file",
+    "name": "src/index.js",
+    "content": "import * as core from './core/index.js';\nimport heapify from './heapify.js';\nimport heappop from './heappop.js';\nimport heappush from './heappush.js';\nimport heappushpop from './heappushpop.js';\nimport heapreplace from './heapreplace.js';\nimport merge from './merge.js';\nimport nlargest from './nlargest.js';\nimport nsmallest from './nsmallest.js';\n\nexport {\n\tcore,\n\theapify,\n\theappop,\n\theappush,\n\theappushpop,\n\theapreplace,\n\tmerge,\n\tnlargest,\n\tnsmallest,\n};\n",
+    "static": true,
+    "longname": "/home/runner/work/heapq/heapq/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 70,
+    "kind": "file",
+    "name": "src/merge.js",
+    "content": "import {enumerate} from '@iterable-iterator/zip';\nimport {map} from '@iterable-iterator/map';\nimport {iter} from '@iterable-iterator/iter';\n\nimport {keeporder} from './core/index.js';\n\nimport heapify from './heapify.js';\nimport heappop from './heappop.js';\nimport heapreplace from './heapreplace.js';\n\nexport default function* merge(compare, ...iterables) {\n\tconst x = [];\n\n\tfor (const [order, it] of enumerate(map(iter, iterables))) {\n\t\tconst rv = it.next();\n\n\t\tif (rv.done) continue;\n\n\t\tx.push([rv.value, order, it]);\n\t}\n\n\tconst h = heapify(keeporder(compare), x);\n\n\twhile (x.length > 1) {\n\t\twhile (true) {\n\t\t\tconst s = x[0];\n\t\t\tconst value = s[0];\n\t\t\tconst it = s[2];\n\n\t\t\tyield value;\n\n\t\t\tconst rv = it.next();\n\n\t\t\tif (rv.done) {\n\t\t\t\theappop(h);\n\t\t\t\tbreak;\n\t\t\t}\n\n\t\t\ts[0] = rv.value;\n\n\t\t\theapreplace(h, s);\n\t\t}\n\t}\n\n\tif (x.length > 0) {\n\t\tconst s = x[0];\n\t\tconst value = s[0];\n\t\tconst it = s[2];\n\n\t\tyield value;\n\n\t\tyield* it;\n\t}\n}\n",
+    "static": true,
+    "longname": "/home/runner/work/heapq/heapq/src/merge.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 71,
+    "kind": "function",
+    "name": "merge",
+    "memberof": "src/merge.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/merge.js~merge",
+    "access": "public",
+    "export": true,
+    "importPath": "@data-structure/heapq/src/merge.js",
+    "importStyle": "merge",
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "params": [
+      {
+        "name": "compare",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "iterables",
+        "types": [
+          "...*"
+        ],
+        "spread": true
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 72,
+    "kind": "file",
+    "name": "src/nlargest.js",
+    "content": "import {reversed} from '@total-order/reversed';\n\nimport nsmallest from './nsmallest.js';\n\nexport default function nlargest(compare, n, iterable) {\n\treturn nsmallest(reversed(compare), n, iterable);\n}\n",
+    "static": true,
+    "longname": "/home/runner/work/heapq/heapq/src/nlargest.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 73,
+    "kind": "function",
+    "name": "nlargest",
+    "memberof": "src/nlargest.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/nlargest.js~nlargest",
+    "access": "public",
+    "export": true,
+    "importPath": "@data-structure/heapq/src/nlargest.js",
+    "importStyle": "nlargest",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "params": [
+      {
+        "name": "compare",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "n",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "iterable",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 74,
+    "kind": "file",
+    "name": "src/nsmallest.js",
+    "content": "import {min} from '@iterable-iterator/reduce';\nimport {sorted} from '@iterable-iterator/sorted';\nimport {forwardRangeIterator} from '@iterable-iterator/range';\nimport {iter} from '@iterable-iterator/iter';\nimport {_zip2} from '@iterable-iterator/zip';\nimport {reversed} from '@total-order/reversed';\n\nimport {keeporder} from './core/index.js';\n\nimport heapify from './heapify.js';\nimport heapreplace from './heapreplace.js';\n\nexport default function nsmallest(compare, n, iterable) {\n\tif (n === 1) {\n\t\tconst sentinel = {};\n\n\t\tconst result = min(compare, iterable, sentinel);\n\n\t\treturn result === sentinel ? [] : [result];\n\t}\n\n\tif (iterable.length !== undefined && n >= iterable.length)\n\t\treturn sorted(compare, iterable);\n\n\tconst it = iter(iterable);\n\n\tconst result = Array.from(\n\t\t_zip2(forwardRangeIterator(0, n, 1), it),\n\t\t([i, elem]) => [elem, i],\n\t);\n\n\tif (result.length === 0) return result;\n\n\tconst h = heapify(keeporder(reversed(compare)), result);\n\n\tlet top = result[0][0];\n\n\tlet order = n;\n\n\tfor (const elem of it) {\n\t\tif (compare(elem, top) < 0) {\n\t\t\theapreplace(h, [elem, order]);\n\n\t\t\ttop = result[0][0];\n\n\t\t\t++order;\n\t\t}\n\t}\n\n\treturn sorted(\n\t\tcompare,\n\t\tArray.from(result, (r) => r[0]),\n\t);\n}\n",
+    "static": true,
+    "longname": "/home/runner/work/heapq/heapq/src/nsmallest.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 75,
+    "kind": "function",
+    "name": "nsmallest",
+    "memberof": "src/nsmallest.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/nsmallest.js~nsmallest",
+    "access": "public",
+    "export": true,
+    "importPath": "@data-structure/heapq/src/nsmallest.js",
+    "importStyle": "nsmallest",
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "params": [
+      {
+        "name": "compare",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "n",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "iterable",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "kind": "index",
+    "content": ":vertical_traffic_light:\n[@data-structure/heapq](https://data-structures-and-algorithms.github.io/heapq)\n==\n\nPython's heap and priority queue library for JavaScript. Parents are\n[js-data-structures](https://github.com/make-github-pseudonymous-again/js-data-structures)\nand\n[js-heap](https://github.com/make-github-pseudonymous-again/js-heap).\n\n\n```js\nimport {\n\theapify ,\n\theappop ,\n\theappush ,\n\theappushpop ,\n\theapreplace ,\n\tmerge ,\n\tnlargest ,\n\tnsmallest ,\n} from '@data-structure/heapq' ;\n```\n\n[![License](https://img.shields.io/github/license/data-structures-and-algorithms/heapq.svg)](https://raw.githubusercontent.com/data-structures-and-algorithms/heapq/main/LICENSE)\n[![Version](https://img.shields.io/npm/v/@data-structures-and-algorithms/heapq.svg)](https://www.npmjs.org/package/@data-structures-and-algorithms/heapq)\n[![Tests](https://img.shields.io/github/workflow/status/data-structures-and-algorithms/heapq/ci:test?event=push&label=tests)](https://github.com/data-structures-and-algorithms/heapq/actions/workflows/ci:test.yml?query=branch:main)\n[![Dependencies](https://img.shields.io/david/data-structures-and-algorithms/heapq.svg)](https://david-dm.org/data-structures-and-algorithms/heapq)\n[![Dev dependencies](https://img.shields.io/david/dev/data-structures-and-algorithms/heapq.svg)](https://david-dm.org/data-structures-and-algorithms/heapq?type=dev)\n[![GitHub issues](https://img.shields.io/github/issues/data-structures-and-algorithms/heapq.svg)](https://github.com/data-structures-and-algorithms/heapq/issues)\n[![Downloads](https://img.shields.io/npm/dm/@data-structures-and-algorithms/heapq.svg)](https://www.npmjs.org/package/@data-structures-and-algorithms/heapq)\n\n[![Code issues](https://img.shields.io/codeclimate/issues/data-structures-and-algorithms/heapq.svg)](https://codeclimate.com/github/data-structures-and-algorithms/heapq/issues)\n[![Code maintainability](https://img.shields.io/codeclimate/maintainability/data-structures-and-algorithms/heapq.svg)](https://codeclimate.com/github/data-structures-and-algorithms/heapq/trends/churn)\n[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/data-structures-and-algorithms/heapq/main.svg)](https://codecov.io/gh/data-structures-and-algorithms/heapq)\n[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/data-structures-and-algorithms/heapq.svg)](https://codeclimate.com/github/data-structures-and-algorithms/heapq/trends/technical_debt)\n[![Documentation](https://data-structures-and-algorithms.github.io/heapq/badge.svg)](https://data-structures-and-algorithms.github.io/heapq/source.html)\n[![Package size](https://img.shields.io/bundlephobia/minzip/@data-structures-and-algorithms/heapq)](https://bundlephobia.com/result?p=@data-structures-and-algorithms/heapq)\n\n## :scroll: References\n\n  - [Python's heapq library](https://docs.python.org/3.6/library/heapq.html).\n",
+    "longname": "/home/runner/work/heapq/heapq/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"@data-structure/heapq\",\n  \"description\": \"Python's heap and priority queue library for JavaScript\",\n  \"version\": \"4.0.0\",\n  \"license\": \"AGPL-3.0\",\n  \"author\": \"make-github-pseudonymous-again\",\n  \"homepage\": \"https://data-structures-and-algorithms.github.io/heapq\",\n  \"repository\": {\n    \"url\": \"https://github.com/data-structures-and-algorithms/heapq\",\n    \"type\": \"git\"\n  },\n  \"bugs\": {\n    \"url\": \"https://github.com/data-structures-and-algorithms/heapq/issues\"\n  },\n  \"keywords\": [\n    \"heap\",\n    \"heapq\",\n    \"javascript\",\n    \"js\",\n    \"priority\",\n    \"queue\"\n  ],\n  \"sideEffects\": false,\n  \"type\": \"module\",\n  \"source\": \"src/index.js\",\n  \"main\": \"dist/index.cjs\",\n  \"module\": \"dist/index.module.js\",\n  \"esmodule\": \"dist/index.modern.js\",\n  \"umd:main\": \"dist/index.umd.js\",\n  \"unpkg\": \"dist/index.umd.js\",\n  \"exports\": {\n    \".\": {\n      \"browser\": \"./dist/index.module.js\",\n      \"umd\": \"./dist/index.umd.js\",\n      \"require\": \"./dist/index.cjs\",\n      \"default\": \"./dist/index.modern.js\"\n    }\n  },\n  \"files\": [\n    \"dist\"\n  ],\n  \"scripts\": {\n    \"build\": \"NODE_ENV=production microbundle\",\n    \"build-docs\": \"esdoc\",\n    \"build-gh-pages\": \"npm run build-docs\",\n    \"ci:build\": \"npm run build\",\n    \"ci:test\": \"npm run lint-config && npm run lint && npm run cover\",\n    \"commit-msg\": \"commitlint --edit\",\n    \"cover\": \"NODE_ENV=cover c8 --all --src src --reporter lcov --reporter text-summary --reporter text npm test\",\n    \"debug\": \"NODE_ENV=debug npm run test -- -st --fail-fast\",\n    \"dev\": \"npm run lint-config-and-fix && npm run lint-and-fix && npm run cover -- -- -st --fail-fast\",\n    \"install-hooks\": \"husky install\",\n    \"lint\": \"xo\",\n    \"lint-and-fix\": \"npm run lint -- --fix\",\n    \"lint-config\": \"fixpack --dryRun\",\n    \"lint-config-and-fix\": \"fixpack || fixpack\",\n    \"postinstall\": \"npm run install-hooks\",\n    \"postpublish\": \"pinst --enable\",\n    \"precommit\": \"lint-staged\",\n    \"prepare\": \"npm run build\",\n    \"prepublishOnly\": \"pinst --disable\",\n    \"release\": \"np --message ':hatching_chick: release: Bumping to v%s.'\",\n    \"test\": \"ava\"\n  },\n  \"dependencies\": {\n    \"@failure-abstraction/error\": \"^6.0.1\",\n    \"@iterable-iterator/iter\": \"^1.0.1\",\n    \"@iterable-iterator/map\": \"^1.0.1\",\n    \"@iterable-iterator/range\": \"^2.0.1\",\n    \"@iterable-iterator/reduce\": \"^1.0.1\",\n    \"@iterable-iterator/sorted\": \"^1.0.0\",\n    \"@iterable-iterator/zip\": \"^1.0.1\",\n    \"@total-order/primitive\": \"^1.0.1\",\n    \"@total-order/reversed\": \"^1.0.0\"\n  },\n  \"devDependencies\": {\n    \"@babel/core\": \"7.13.10\",\n    \"@babel/preset-env\": \"7.13.10\",\n    \"@babel/register\": \"7.13.8\",\n    \"@commitlint/cli\": \"13.1.0\",\n    \"@iterable-iterator/list\": \"^1.0.1\",\n    \"@js-library/commitlint-config\": \"0.0.4\",\n    \"ava\": \"3.15.0\",\n    \"babel-plugin-transform-remove-console\": \"6.9.4\",\n    \"babel-plugin-unassert\": \"3.1.0\",\n    \"babel-preset-power-assert\": \"3.0.0\",\n    \"c8\": \"7.7.3\",\n    \"esdoc\": \"1.1.0\",\n    \"esdoc-inject-script-plugin\": \"1.0.0\",\n    \"esdoc-inject-style-plugin\": \"1.0.0\",\n    \"esdoc-standard-plugin\": \"1.0.0\",\n    \"fixpack\": \"4.0.0\",\n    \"husky\": \"7.0.1\",\n    \"lint-staged\": \"11.1.1\",\n    \"microbundle\": \"0.13.1\",\n    \"np\": \"7.4.0\",\n    \"pinst\": \"2.1.6\",\n    \"power-assert\": \"1.6.1\",\n    \"regenerator-runtime\": \"0.13.9\",\n    \"xo\": \"0.42.0\"\n  },\n  \"ava\": {\n    \"files\": [\n      \"test/src/**/*\"\n    ],\n    \"require\": [\n      \"regenerator-runtime/runtime\",\n      \"@babel/register\"\n    ],\n    \"timeout\": \"1m\"\n  },\n  \"babel\": {\n    \"sourceMaps\": true,\n    \"presets\": [\n      [\n        \"@babel/preset-env\",\n        {\n          \"targets\": \"current node\"\n        }\n      ]\n    ],\n    \"plugins\": [\n      [\n        \"transform-remove-console\",\n        {\n          \"exclude\": [\n            \"log\",\n            \"error\",\n            \"warn\"\n          ]\n        }\n      ]\n    ],\n    \"env\": {\n      \"debug\": {\n        \"presets\": [\n          \"babel-preset-power-assert\"\n        ],\n        \"plugins\": [\n          [\n            \"transform-remove-console\",\n            {\n              \"exclude\": [\n                \"debug\",\n                \"log\",\n                \"error\",\n                \"warn\"\n              ]\n            }\n          ]\n        ]\n      },\n      \"test\": {\n        \"presets\": [\n          \"babel-preset-power-assert\"\n        ]\n      },\n      \"cover\": {\n        \"sourceMaps\": \"both\",\n        \"presets\": [\n          \"babel-preset-power-assert\"\n        ]\n      },\n      \"development\": {\n        \"presets\": [\n          [\n            \"@babel/preset-env\",\n            {\n              \"targets\": [\n                \"defaults\",\n                \"maintained node versions\"\n              ]\n            }\n          ],\n          \"babel-preset-power-assert\"\n        ]\n      },\n      \"production\": {\n        \"presets\": [\n          [\n            \"@babel/preset-env\",\n            {\n              \"targets\": [\n                \"defaults\",\n                \"maintained node versions\"\n              ]\n            }\n          ]\n        ],\n        \"plugins\": [\n          \"babel-plugin-unassert\"\n        ]\n      }\n    }\n  },\n  \"lint-staged\": {\n    \"*.js\": [\n      \"npm run lint-and-fix\"\n    ],\n    \"package.json\": [\n      \"npm run lint-config-and-fix\"\n    ]\n  },\n  \"prettier\": {\n    \"trailingComma\": \"all\"\n  },\n  \"xo\": {\n    \"prettier\": true,\n    \"plugins\": [\n      \"unicorn\"\n    ],\n    \"rules\": {\n      \"unicorn/prefer-node-protocol\": \"off\",\n      \"unicorn/filename-case\": \"off\",\n      \"camelcase\": \"off\",\n      \"unicorn/prevent-abbreviations\": \"off\",\n      \"no-constant-condition\": \"off\",\n      \"unicorn/prefer-math-trunc\": \"off\",\n      \"unicorn/no-new-array\": \"off\",\n      \"no-negated-condition\": \"off\"\n    },\n    \"overrides\": [\n      {\n        \"files\": [\n          \"doc/**\"\n        ],\n        \"env\": \"browser\"\n      }\n    ]\n  }\n}\n",
+    "longname": "/home/runner/work/heapq/heapq/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manualIndex",
+    "globalIndex": false,
+    "content": null,
+    "longname": "",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/runner/work/heapq/heapq/doc/manual/overview.md",
+    "name": "./doc/manual/overview.md",
+    "content": "# Overview\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/runner/work/heapq/heapq/doc/manual/installation.md",
+    "name": "./doc/manual/installation.md",
+    "content": "# Installation\nCan be managed using\n[jspm](http://jspm.io)\nor [npm](https://github.com/npm/npm).\n\n### jspm\n```terminal\njspm install npm:@data-structure/heapq\n```\n\n### npm\n```terminal\nnpm install @data-structure/heapq --save\n```\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/runner/work/heapq/heapq/doc/manual/usage.md",
+    "name": "./doc/manual/usage.md",
+    "content": "# Usage\nThe code needs a ES2015+ polyfill to work, for example\n[regenerator-runtime/runtime](https://babeljs.io/docs/usage/polyfill).\n```js\nawait import( 'regenerator-runtime/runtime.js' ) ;\n// or\nimport 'regenerator-runtime/runtime.js' ;\n```\n\nThen\n```js\nconst number = await import( '@data-structure/heapq' ) ;\n// or\nimport number from '@data-structure/heapq' ;\n```\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/runner/work/heapq/heapq/doc/manual/example.md",
+    "name": "./doc/manual/example.md",
+    "content": "# Examples\nSee Python's docs:\n\n  - [heapq](https://docs.python.org/3.6/library/heapq.html)\n\n## Changes w.r.t. Python's API\n\n```js\nimport {heapify, heappop} from '@data-structure/heapq';\nimport {increasing} from '@total-order/primitive';\nlet array = [2, 1, 3];\nlet heap = heapify(increasing, array);\narray[0] ; // 1\nheappop( heap ) ; // 1\nheappop( heap ) ; // 2\nheappop( heap ) ; // 3\narray.length ; // 0\n```\n",
+    "static": true,
+    "access": "public"
+  }
+]

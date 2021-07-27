@@ -7,8 +7,30 @@
       "expectCount": 1,
       "actualCount": 0,
       "undocumentLines": [
-        2
+        1
       ]
+    },
+    "src/core/keeporder.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        3
+      ]
+    },
+    "src/core/nextchild.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/core/siftdown.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/core/siftup.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
     },
     "src/heapify.js": {
       "expectCount": 1,
@@ -43,24 +65,12 @@
         4
       ]
     },
-    "src/core/keeporder.js": {
-      "expectCount": 1,
-      "actualCount": 0,
-      "undocumentLines": [
-        3
-      ]
-    },
     "src/merge.js": {
       "expectCount": 1,
       "actualCount": 0,
       "undocumentLines": [
-        9
+        11
       ]
-    },
-    "src/core/nextchild.js": {
-      "expectCount": 1,
-      "actualCount": 1,
-      "undocumentLines": []
     },
     "src/nlargest.js": {
       "expectCount": 1,
@@ -73,18 +83,8 @@
       "expectCount": 1,
       "actualCount": 0,
       "undocumentLines": [
-        9
+        13
       ]
-    },
-    "src/core/siftdown.js": {
-      "expectCount": 1,
-      "actualCount": 1,
-      "undocumentLines": []
-    },
-    "src/core/siftup.js": {
-      "expectCount": 1,
-      "actualCount": 1,
-      "undocumentLines": []
     }
   }
 }

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <base data-ice="baseUrl" href="../../">
-  <title data-ice="title">src/heapreplace.js | @data-structures-and-algorithms/heapq</title>
+  <title data-ice="title">src/index.js | @data-structures-and-algorithms/heapq</title>
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
@@ -46,26 +46,28 @@
 </div>
 </nav>
 
-<div class="content" data-ice="content"><h1 data-ice="title">src/heapreplace.js</h1>
-<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import {IndexError} from &apos;@failure-abstraction/error&apos;;
-import {siftdown} from &apos;./core/index.js&apos;;
+<div class="content" data-ice="content"><h1 data-ice="title">src/index.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import * as core from &apos;./core/index.js&apos;;
+import heapify from &apos;./heapify.js&apos;;
+import heappop from &apos;./heappop.js&apos;;
+import heappush from &apos;./heappush.js&apos;;
+import heappushpop from &apos;./heappushpop.js&apos;;
+import heapreplace from &apos;./heapreplace.js&apos;;
+import merge from &apos;./merge.js&apos;;
+import nlargest from &apos;./nlargest.js&apos;;
+import nsmallest from &apos;./nsmallest.js&apos;;
 
-export default function heapreplace(heap, item) {
-	const x = heap.data;
-	const n = x.length;
-
-	if (n === 0) throw new IndexError(&apos;heapreplace&apos;);
-
-	const oldroot = x[0];
-
-	x[0] = item;
-
-	// Sift down the new root
-
-	siftdown(heap.compare, x, 0, n, 0);
-
-	return oldroot;
-}
+export {
+	core,
+	heapify,
+	heappop,
+	heappush,
+	heappushpop,
+	heapreplace,
+	merge,
+	nlargest,
+	nsmallest,
+};
 </code></pre>
 
 </div>
