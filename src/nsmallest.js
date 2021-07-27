@@ -1,5 +1,9 @@
-import { min , sorted , _zip2 , _range , iter } from '@aureooms/js-itertools' ;
-import { reverse } from '@aureooms/js-compare' ;
+import {min} from '@iterable-iterator/reduce';
+import {sorted} from '@iterable-iterator/sorted';
+import {forwardRangeIterator} from '@iterable-iterator/range';
+import {iter} from '@iterable-iterator/iter';
+import {_zip2} from '@iterable-iterator/zip';
+import { reversed } from '@total-order/reversed' ;
 
 import { keeporder } from './core' ;
 
@@ -26,11 +30,11 @@ export default function nsmallest ( compare , n , iterable ) {
 
 	const it = iter( iterable ) ;
 
-	const result = Array.from( _zip2( _range( 0 , n , 1 ) , it ) , ( [ i , elem ] ) => [ elem , i ] ) ;
+	const result = Array.from( _zip2( forwardRangeIterator( 0 , n , 1 ) , it ) , ( [ i , elem ] ) => [ elem , i ] ) ;
 
 	if ( result.length === 0 ) return result ;
 
-	const h = heapify( keeporder( reverse( compare ) ) , result ) ;
+	const h = heapify( keeporder( reversed( compare ) ) , result ) ;
 
 	let top = result[0][0] ;
 

@@ -5,10 +5,10 @@ or [npm](https://github.com/npm/npm).
 
 ### jspm
 ```terminal
-jspm install npm:@aureooms/js-heapq
+jspm install npm:@data-structure/heapq
 ```
 
 ### npm
 ```terminal
-npm install @aureooms/js-heapq --save
+npm install @data-structure/heapq --save
 ```

@@ -1,4 +1,4 @@
-import { IndexError } from '@aureooms/js-error' ;
+import { IndexError } from '@failure-abstraction/error' ;
 import { siftdown } from './core' ;
 
 export default function heappop ( heap ) {
