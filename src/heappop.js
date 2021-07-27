@@ -1,5 +1,5 @@
 import { IndexError } from '@failure-abstraction/error' ;
-import { siftdown } from './core' ;
+import { siftdown } from './core/index.js' ;
 
 export default function heappop ( heap ) {
 

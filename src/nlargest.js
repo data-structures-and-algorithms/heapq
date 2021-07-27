@@ -1,6 +1,6 @@
 import { reversed } from '@total-order/reversed' ;
 
-import nsmallest from './nsmallest' ;
+import nsmallest from './nsmallest.js' ;
 
 export default function nlargest ( compare , n , iterable ) {
 

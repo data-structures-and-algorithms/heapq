@@ -4,7 +4,7 @@ import { increasing } from '@total-order/primitive' ;
 import { list } from "@iterable-iterator/list" ;
 import { IndexError } from '@failure-abstraction/error' ;
 
-import heapq from '../../src' ;
+import heapq from '../../src/index.js' ;
 
 test( "heapq" , t => {
 

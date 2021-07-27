@@ -2,11 +2,11 @@ import {enumerate} from '@iterable-iterator/zip';
 import {map} from '@iterable-iterator/map';
 import {iter} from '@iterable-iterator/iter';
 
-import { keeporder } from './core' ;
+import { keeporder } from './core/index.js' ;
 
-import heapify from './heapify' ;
-import heappop from './heappop' ;
-import heapreplace from './heapreplace' ;
+import heapify from './heapify.js' ;
+import heappop from './heappop.js' ;
+import heapreplace from './heapreplace.js' ;
 
 export default function* merge ( compare , ...iterables ) {
 

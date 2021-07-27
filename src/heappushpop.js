@@ -1,4 +1,4 @@
-import { siftdown } from './core' ;
+import { siftdown } from './core/index.js' ;
 
 export default function heappushpop ( heap , item ) {
 

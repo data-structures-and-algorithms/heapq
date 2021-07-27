@@ -1,8 +1,8 @@
-import Heap from './Heap' ;
-import keeporder from './keeporder' ;
-import nextchild from './nextchild' ;
-import siftdown from './siftdown' ;
-import siftup from './siftup' ;
+import Heap from './Heap.js' ;
+import keeporder from './keeporder.js' ;
+import nextchild from './nextchild.js' ;
+import siftdown from './siftdown.js' ;
+import siftup from './siftup.js' ;
 
 export default {
 	Heap ,

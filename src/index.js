@@ -1,12 +1,12 @@
-import core from './core' ;
-import heapify from './heapify' ;
-import heappop from './heappop' ;
-import heappush from './heappush' ;
-import heappushpop from './heappushpop' ;
-import heapreplace from './heapreplace' ;
-import merge from './merge' ;
-import nlargest from './nlargest' ;
-import nsmallest from './nsmallest' ;
+import core from './core/index.js' ;
+import heapify from './heapify.js' ;
+import heappop from './heappop.js' ;
+import heappush from './heappush.js' ;
+import heappushpop from './heappushpop.js' ;
+import heapreplace from './heapreplace.js' ;
+import merge from './merge.js' ;
+import nlargest from './nlargest.js' ;
+import nsmallest from './nsmallest.js' ;
 
 export default {
 	core ,

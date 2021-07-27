@@ -5,10 +5,10 @@ import {iter} from '@iterable-iterator/iter';
 import {_zip2} from '@iterable-iterator/zip';
 import { reversed } from '@total-order/reversed' ;
 
-import { keeporder } from './core' ;
+import { keeporder } from './core/index.js' ;
 
-import heapify from './heapify' ;
-import heapreplace from './heapreplace' ;
+import heapify from './heapify.js' ;
+import heapreplace from './heapreplace.js' ;
 
 export default function nsmallest ( compare , n , iterable ) {
 

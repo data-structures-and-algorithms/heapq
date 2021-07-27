@@ -1,4 +1,4 @@
-import { siftdown , Heap } from './core' ;
+import { siftdown , Heap } from './core/index.js' ;
 
 /**
  * Builds a heap in O(n) operations.

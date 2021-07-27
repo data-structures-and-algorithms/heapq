@@ -1,4 +1,4 @@
-import { siftup } from './core' ;
+import { siftup } from './core/index.js' ;
 
  export default function heappush ( heap , item ) {
 
