@@ -5,7 +5,7 @@
 Python's heap and priority queue library for JavaScript. Parents are
 [js-data-structures](https://github.com/make-github-pseudonymous-again/js-data-structures)
 and
-[js-heap](https://github.com/make-github-pseudonymous-again/js-heap).
+[@heap-data-structure](https://github.com/heap-data-structure).
 
 
 ```js
