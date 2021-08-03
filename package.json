@@ -1,7 +1,7 @@
 {
   "name": "@data-structure/heapq",
   "description": "Python's heap and priority queue library for JavaScript",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "license": "AGPL-3.0",
   "author": "make-github-pseudonymous-again",
   "homepage": "https://data-structures-and-algorithms.github.io/heapq",
