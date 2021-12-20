@@ -1,21 +1,9 @@
-import * as core from './core/index.js';
-import heapify from './heapify.js';
-import heappop from './heappop.js';
-import heappush from './heappush.js';
-import heappushpop from './heappushpop.js';
-import heapreplace from './heapreplace.js';
-import merge from './merge.js';
-import nlargest from './nlargest.js';
-import nsmallest from './nsmallest.js';
-
-export {
-	core,
-	heapify,
-	heappop,
-	heappush,
-	heappushpop,
-	heapreplace,
-	merge,
-	nlargest,
-	nsmallest,
-};
+export * as core from './core/index.js';
+export {default as heappop} from './heappop.js';
+export {default as heapify} from './heapify.js';
+export {default as heappushpop} from './heappushpop.js';
+export {default as heappush} from './heappush.js';
+export {default as merge} from './merge.js';
+export {default as heapreplace} from './heapreplace.js';
+export {default as nsmallest} from './nsmallest.js';
+export {default as nlargest} from './nlargest.js';

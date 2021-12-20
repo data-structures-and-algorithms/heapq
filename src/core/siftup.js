@@ -17,6 +17,7 @@ export default function siftup(compare, a, i, j, k) {
 		// Address of the parent in a zero-based
 		// d-ary heap
 
+		// eslint-disable-next-line no-bitwise
 		const parent = i + ((current - 1) >>> 1);
 
 		// If current value is greater than its parent

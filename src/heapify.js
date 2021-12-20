@@ -11,6 +11,7 @@ import {siftdown, Heap} from './core/index.js';
 export default function heapify(compare, x) {
 	const n = x.length;
 
+	// eslint-disable-next-line no-bitwise
 	for (let k = (n / 2) | 0; k; ) {
 		siftdown(compare, x, 0, n, --k);
 	}
