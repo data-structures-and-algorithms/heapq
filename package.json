@@ -74,7 +74,7 @@
     "@total-order/reversed": "^1.0.0"
   },
   "devDependencies": {
-    "@babel/core": "7.18.10",
+    "@babel/core": "7.18.13",
     "@babel/preset-env": "7.18.10",
     "@babel/register": "7.18.9",
     "@commitlint/cli": "17.0.3",
