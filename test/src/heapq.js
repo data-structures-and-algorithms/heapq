@@ -1,8 +1,8 @@
 import test from 'ava';
 
-import {increasing} from '@total-order/primitive';
-import {list} from '@iterable-iterator/list';
 import {IndexError} from '@failure-abstraction/error';
+import {list} from '@iterable-iterator/list';
+import {increasing} from '@total-order/primitive';
 
 import * as heapq from '#module';
 

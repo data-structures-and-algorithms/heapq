@@ -1,9 +1,8 @@
-import {enumerate} from '@iterable-iterator/zip';
-import {map} from '@iterable-iterator/map';
 import {iter} from '@iterable-iterator/iter';
+import {map} from '@iterable-iterator/map';
+import {enumerate} from '@iterable-iterator/zip';
 
 import {keeporder} from './core/index.js';
-
 import heapify from './heapify.js';
 import heappop from './heappop.js';
 import heapreplace from './heapreplace.js';

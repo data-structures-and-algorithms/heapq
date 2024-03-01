@@ -1,12 +1,11 @@
+import {iter} from '@iterable-iterator/iter';
+import {forwardRangeIterator} from '@iterable-iterator/range';
 import {min} from '@iterable-iterator/reduce';
 import {sorted} from '@iterable-iterator/sorted';
-import {forwardRangeIterator} from '@iterable-iterator/range';
-import {iter} from '@iterable-iterator/iter';
 import {_zip2} from '@iterable-iterator/zip';
 import {reversed} from '@total-order/reversed';
 
 import {keeporder} from './core/index.js';
-
 import heapify from './heapify.js';
 import heapreplace from './heapreplace.js';
 
