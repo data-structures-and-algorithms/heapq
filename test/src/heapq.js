@@ -4,7 +4,7 @@ import {increasing} from '@total-order/primitive';
 import {list} from '@iterable-iterator/list';
 import {IndexError} from '@failure-abstraction/error';
 
-import * as heapq from '../../src/index.js';
+import * as heapq from '#module';
 
 test('heapq', (t) => {
 	t.deepEqual(list(heapq.merge(increasing)), [], 'merge 0');
