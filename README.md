@@ -23,7 +23,7 @@ import {
 
 [![License](https://img.shields.io/github/license/data-structures-and-algorithms/heapq.svg)](https://raw.githubusercontent.com/data-structures-and-algorithms/heapq/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@data-structure/heapq.svg)](https://www.npmjs.org/package/@data-structure/heapq)
-[![Tests](https://img.shields.io/github/workflow/status/data-structures-and-algorithms/heapq/ci?event=push&label=tests)](https://github.com/data-structures-and-algorithms/heapq/actions/workflows/ci.yml?query=branch:main)
+[![Tests](https://img.shields.io/github/actions/workflow/status/data-structures-and-algorithms/heapq/ci.yml?branch=main&event=push&label=tests)](https://github.com/data-structures-and-algorithms/heapq/actions/workflows/ci.yml?query=branch:main)
 [![Dependencies](https://img.shields.io/librariesio/github/data-structures-and-algorithms/heapq.svg)](https://github.com/data-structures-and-algorithms/heapq/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/data-structures-and-algorithms/heapq.svg)](https://github.com/data-structures-and-algorithms/heapq/issues)
 [![Downloads](https://img.shields.io/npm/dm/@data-structure/heapq.svg)](https://www.npmjs.org/package/@data-structure/heapq)
