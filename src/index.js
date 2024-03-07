@@ -1,4 +1,7 @@
+export {IndexError} from '@failure-abstraction/error';
+
 export * as core from './core/index.js';
+
 export {default as heappop} from './heappop.js';
 export {default as heapify} from './heapify.js';
 export {default as heappushpop} from './heappushpop.js';

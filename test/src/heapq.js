@@ -1,8 +1,9 @@
 import test from 'ava';
 
-import {IndexError} from '@failure-abstraction/error';
 import {list} from '@iterable-iterator/list';
 import {increasing} from '@total-order/primitive';
+
+import {IndexError} from './_fixtures.js';
 
 import * as heapq from '#module';
 
