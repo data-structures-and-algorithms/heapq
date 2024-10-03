@@ -81,8 +81,8 @@
     "@total-order/reversed": "^1.0.0"
   },
   "devDependencies": {
-    "@babel/core": "7.25.2",
-    "@babel/preset-env": "7.25.4",
+    "@babel/core": "7.25.7",
+    "@babel/preset-env": "7.25.7",
     "@commitlint/cli": "19.5.0",
     "@iterable-iterator/list": "1.0.1",
     "@js-library/commitlint-config": "0.0.4",
